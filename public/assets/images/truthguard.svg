@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tgBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140D24"/>
+      <stop offset="100%" stop-color="#080512"/>
+    </linearGradient>
+    <linearGradient id="tgViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#tgBg)" />
+
+  <!-- Top bar -->
+  <rect x="40" y="28" width="720" height="48" rx="10" fill="#1A1230" stroke="#312257" stroke-width="1.5"/>
+  <text x="65" y="58" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="17" fill="#FFFFFF">TRUTHGUARD AI</text>
+  <rect x="230" y="40" width="170" height="24" rx="6" fill="#8B5CF6" fill-opacity="0.2" stroke="#8B5CF6" stroke-width="1"/>
+  <text x="315" y="56" font-family="'JetBrains Mono', monospace" font-size="10" fill="#C4B5FD" text-anchor="middle">MULTI-AGENT MULTIMODAL</text>
+  
+  <rect x="415" y="40" width="165" height="24" rx="6" fill="#EC4899" fill-opacity="0.2" stroke="#EC4899" stroke-width="1"/>
+  <text x="497" y="56" font-family="'JetBrains Mono', monospace" font-size="10" fill="#F472B6" text-anchor="middle">DEEPFAKE &amp; MISINFO DETECT</text>
+
+  <!-- Left: Multi-Agent Neural Swarm Visualizer -->
+  <rect x="40" y="94" width="430" height="320" rx="12" fill="#1C1433" stroke="#35245E" stroke-width="1.5"/>
+  <text x="65" y="128" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Collaborative Multi-Agent Network</text>
+  <text x="65" y="148" font-family="'Inter', sans-serif" font-size="12" fill="#A899C7">Cross-Modal Reasoning • Evidence Verification • Forensic Report</text>
+
+  <!-- Agent 1: Text Verifier -->
+  <rect x="65" y="175" width="170" height="85" rx="8" fill="#251A45" stroke="#8B5CF6" stroke-width="1"/>
+  <text x="80" y="200" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600" fill="#DDD6FE">Text Claim Agent</text>
+  <text x="80" y="220" font-family="'Inter', sans-serif" font-size="10" fill="#A78BFA">LLM Fact-Checking</text>
+  <text x="80" y="240" font-family="'JetBrains Mono', monospace" font-size="10" fill="#10B981">Claim Verified: True</text>
+
+  <!-- Agent 2: Vision Deepfake -->
+  <rect x="255" y="175" width="190" height="85" rx="8" fill="#251A45" stroke="#EC4899" stroke-width="1"/>
+  <text x="270" y="200" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600" fill="#FBCFE8">Vision Deepfake Agent</text>
+  <text x="270" y="220" font-family="'Inter', sans-serif" font-size="10" fill="#F472B6">CNN Artifact Inspection</text>
+  <text x="270" y="240" font-family="'JetBrains Mono', monospace" font-size="10" fill="#EF4444">Deepfake Prob: 89.2%</text>
+
+  <!-- Agent 3: Evidence Retrieval -->
+  <rect x="65" y="280" width="170" height="85" rx="8" fill="#251A45" stroke="#06B6D4" stroke-width="1"/>
+  <text x="80" y="305" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600" fill="#CFFAFE">Evidence Agent</text>
+  <text x="80" y="325" font-family="'Inter', sans-serif" font-size="10" fill="#67E8F9">ChromaDB RAG Retrieval</text>
+  <text x="80" y="345" font-family="'JetBrains Mono', monospace" font-size="10" fill="#38BDF8">14 Cross References</text>
+
+  <!-- Agent 4: Source Credibility -->
+  <rect x="255" y="280" width="190" height="85" rx="8" fill="#251A45" stroke="#F59E0B" stroke-width="1"/>
+  <text x="270" y="305" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600" fill="#FEF3C7">Credibility Agent</text>
+  <text x="270" y="325" font-family="'Inter', sans-serif" font-size="10" fill="#FBBF24">Domain &amp; Social Graph</text>
+  <text x="270" y="345" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FBBF24">Low Domain Trust (0.24)</text>
+
+  <!-- Right: Forensic Score Card -->
+  <rect x="490" y="94" width="270" height="320" rx="12" fill="#1C1433" stroke="#35245E" stroke-width="1.5"/>
+  <text x="515" y="128" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Forensic Deception Dial</text>
+
+  <circle cx="625" cy="210" r="60" fill="none" stroke="#2D1F50" stroke-width="12"/>
+  <circle cx="625" cy="210" r="60" fill="none" stroke="url(#tgViolet)" stroke-width="12" stroke-dasharray="270 380"/>
+  <text x="625" y="215" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" text-anchor="middle">87%</text>
+  <text x="625" y="235" font-family="'Inter', sans-serif" font-size="10" fill="#F472B6" text-anchor="middle">High Risk Deception</text>
+
+  <rect x="515" y="295" width="220" height="42" rx="6" fill="#130D24"/>
+  <text x="525" y="313" font-family="'JetBrains Mono', monospace" font-size="10" fill="#E2E8F0">• Synthetic Face Warp</text>
+  <text x="525" y="328" font-family="'JetBrains Mono', monospace" font-size="10" fill="#F43F5E">• Fabricated Audio Track</text>
+
+  <rect x="515" y="350" width="220" height="42" rx="6" fill="#130D24"/>
+  <text x="525" y="368" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A78BFA">• Python • PyTorch • Chroma</text>
+  <text x="525" y="383" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A78BFA">• OpenAI / Gemini / Watsonx</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1A26"/>
+      <stop offset="100%" stop-color="#060C12"/>
+    </linearGradient>
+    <linearGradient id="cmBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#cmBg)" />
+
+  <!-- Top bar -->
+  <rect x="40" y="28" width="720" height="48" rx="10" fill="#122333" stroke="#213E5C" stroke-width="1.5"/>
+  <text x="65" y="58" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="17" fill="#FFFFFF">CLOUDMIND PLATFORM</text>
+  <rect x="250" y="40" width="140" height="24" rx="6" fill="#38BDF8" fill-opacity="0.15" stroke="#38BDF8" stroke-width="1"/>
+  <text x="320" y="56" font-family="'JetBrains Mono', monospace" font-size="10" fill="#38BDF8" text-anchor="middle">ML AUTOSCALING</text>
+  
+  <rect x="400" y="40" width="150" height="24" rx="6" fill="#818CF8" fill-opacity="0.15" stroke="#818CF8" stroke-width="1"/>
+  <text x="475" y="56" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A5B4FC" text-anchor="middle">DOCKER • K8S • TERRAFORM</text>
+
+  <!-- Left: 6-Tier Architecture Blueprint -->
+  <rect x="40" y="94" width="440" height="320" rx="12" fill="#132437" stroke="#223E5C" stroke-width="1.5"/>
+  <text x="65" y="128" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">6-Resource Hierarchy &amp; Autoscaler</text>
+  <text x="65" y="148" font-family="'Inter', sans-serif" font-size="12" fill="#8BB2D6">Users → Projects → Apps → Environments → Clusters → Deployments</text>
+
+  <!-- Autoscaler Curve -->
+  <path d="M 70 300 C 140 300, 180 210, 240 210 S 300 160, 360 160 S 420 250, 450 250" fill="none" stroke="url(#cmBlue)" stroke-width="3.5"/>
+  <path d="M 70 300 C 140 300, 180 210, 240 210 S 300 160, 360 160 S 420 250, 450 250 L 450 350 L 70 350 Z" fill="url(#cmBlue)" fill-opacity="0.1"/>
+
+  <circle cx="240" cy="210" r="5" fill="#38BDF8"/>
+  <rect x="180" y="175" width="120" height="24" rx="4" fill="#0C1724" stroke="#38BDF8" stroke-width="1"/>
+  <text x="240" y="191" font-family="'JetBrains Mono', monospace" font-size="9" fill="#38BDF8" text-anchor="middle">LSTM Predicted Spike</text>
+
+  <circle cx="360" cy="160" r="5" fill="#34D399"/>
+  <rect x="300" y="125" width="120" height="24" rx="4" fill="#0C1724" stroke="#34D399" stroke-width="1"/>
+  <text x="360" y="141" font-family="'JetBrains Mono', monospace" font-size="9" fill="#34D399" text-anchor="middle">+4 Pods Pre-allocated</text>
+
+  <!-- Right: Status Cards -->
+  <rect x="500" y="94" width="260" height="150" rx="12" fill="#132437" stroke="#223E5C" stroke-width="1.5"/>
+  <text x="520" y="122" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">FastAPI Backend Core</text>
+  <text x="520" y="148" font-family="'JetBrains Mono', monospace" font-size="10" fill="#38BDF8">✓ JWT &amp; Role-Based Access</text>
+  <text x="520" y="168" font-family="'JetBrains Mono', monospace" font-size="10" fill="#34D399">✓ 10+ REST API Endpoints</text>
+  <text x="520" y="188" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FBBF24">✓ PostgreSQL / SQLite ORM</text>
+  <text x="520" y="208" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A5B4FC">✓ Framework-Agnostic Design</text>
+
+  <rect x="500" y="260" width="260" height="154" rx="12" fill="#132437" stroke="#223E5C" stroke-width="1.5"/>
+  <text x="520" y="288" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">ML Approaches</text>
+  <rect x="520" y="306" width="220" height="26" rx="6" fill="#0E1926"/>
+  <text x="530" y="323" font-family="'JetBrains Mono', monospace" font-size="10" fill="#F472B6">1. XGBoost CPU/RAM Estimator</text>
+  <rect x="520" y="338" width="220" height="26" rx="6" fill="#0E1926"/>
+  <text x="530" y="355" font-family="'JetBrains Mono', monospace" font-size="10" fill="#60A5FA">2. LSTM Traffic Sequence Model</text>
+  <rect x="520" y="370" width="220" height="26" rx="6" fill="#0E1926"/>
+  <text x="530" y="387" font-family="'JetBrains Mono', monospace" font-size="10" fill="#34D399">3. Kafka Streaming Telemetry</text>
+</svg>

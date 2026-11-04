@@ -1,0 +1,61 @@
+{
+  "categories": [
+    {
+      "name": "Core CS & Languages",
+      "icon": "code",
+      "skills": [
+        { "name": "Python", "level": 95, "experience": "3+ yrs", "highlight": "FastAPI, AI/ML, Scapy, Automation" },
+        { "name": "JavaScript (ES6+)", "level": 92, "experience": "3+ yrs", "highlight": "React, Node, Express, Three.js" },
+        { "name": "Java", "level": 88, "experience": "2+ yrs", "highlight": "OOP, Data Structures, Concurrency" },
+        { "name": "C / C++", "level": 86, "experience": "2+ yrs", "highlight": "Pointers, Memory, Low-Level Concepts" },
+        { "name": "SQL & Relational", "level": 92, "experience": "2.5+ yrs", "highlight": "PostgreSQL, Indexing, Complex Joins" },
+        { "name": "Data Structures & Algorithms", "level": 94, "experience": "200+ Solved", "highlight": "LeetCode, Trees, Graphs, DP" },
+        { "name": "Object-Oriented Programming (OOP)", "level": 93, "experience": "Core", "highlight": "SOLID, Polymorphism, Design Patterns" },
+        { "name": "Operating Systems & Networking", "level": 90, "experience": "Core", "highlight": "TCP/IP, Sockets, Processes, Memory" },
+        { "name": "System Design & REST APIs", "level": 91, "experience": "Core", "highlight": "Scalability, Microservices, Caching" }
+      ]
+    },
+    {
+      "name": "Full-Stack & Frameworks",
+      "icon": "layers",
+      "skills": [
+        { "name": "React.js", "level": 94, "experience": "3+ yrs", "highlight": "Hooks, Context, State, Vite, SPAs" },
+        { "name": "Node.js & Express.js", "level": 93, "experience": "3+ yrs", "highlight": "REST APIs, Middleware, Async, Auth" },
+        { "name": "FastAPI (Python)", "level": 92, "experience": "2+ yrs", "highlight": "Async IO, Pydantic, Swagger, JWT" },
+        { "name": "Next.js", "level": 85, "experience": "1.5+ yrs", "highlight": "SSR, Server Actions, App Router" },
+        { "name": "Socket.IO", "level": 88, "experience": "2+ yrs", "highlight": "WebSockets, Live Alerts, Real-Time" },
+        { "name": "JWT & RBAC Security", "level": 95, "experience": "Production", "highlight": "Multi-role Guards, Tokens, Bcrypt" },
+        { "name": "Tailwind CSS", "level": 92, "experience": "2+ yrs", "highlight": "Glassmorphism, Responsive, Themes" },
+        { "name": "Three.js & WebGL", "level": 86, "experience": "1.5+ yrs", "highlight": "3D Canvas, Shaders, Procedural Meshes" }
+      ]
+    },
+    {
+      "name": "AI, ML & Generative AI",
+      "icon": "cpu",
+      "skills": [
+        { "name": "Machine Learning & Scikit-learn", "level": 94, "experience": "2.5+ yrs", "highlight": "RandomForest, Isolation Forest, XGBoost" },
+        { "name": "Generative AI & LLMs", "level": 92, "experience": "Enterprise", "highlight": "RAG, Prompt Chaining, AI Agents" },
+        { "name": "IBM watsonx", "level": 92, "experience": "Certified Intern", "highlight": "Enterprise Foundation Models, Governance" },
+        { "name": "ChromaDB & Vector Databases", "level": 90, "experience": "Production", "highlight": "Embeddings, Semantic Search, RAG" },
+        { "name": "Computer Vision & Deepfakes", "level": 87, "experience": "Research", "highlight": "CNN Artifacts, Facial Forensics" },
+        { "name": "Prompt Engineering & Few-Shot", "level": 95, "experience": "Enterprise", "highlight": "CoT, Zero-Shot, Anti-Hallucination" },
+        { "name": "Deep Learning (TensorFlow/Keras)", "level": 86, "experience": "2+ yrs", "highlight": "LSTM, Neural Networks, Sequential" },
+        { "name": "Data Analytics (Pandas/NumPy)", "level": 92, "experience": "Certified", "highlight": "Google Certified Data Analyst" }
+      ]
+    },
+    {
+      "name": "Databases, Cloud & DevOps",
+      "icon": "database",
+      "skills": [
+        { "name": "PostgreSQL", "level": 93, "experience": "Production", "highlight": "ACID, Migrations, Geo-Queries, Triggers" },
+        { "name": "MongoDB", "level": 90, "experience": "Production", "highlight": "Mongoose, Aggregations, NoSQL" },
+        { "name": "Docker & Containers", "level": 88, "experience": "2+ yrs", "highlight": "Multi-stage Builds, Compose, Images" },
+        { "name": "AWS Cloud Services", "level": 89, "experience": "Certified", "highlight": "EC2, S3, Lambda, RDS, IAM, VPC" },
+        { "name": "Kubernetes & Terraform", "level": 82, "experience": "IaC", "highlight": "Pods, Services, Declarative Infra" },
+        { "name": "Git & GitHub Workflows", "level": 95, "experience": "Daily", "highlight": "CI/CD Actions, Branching, PR Reviews" },
+        { "name": "Apache Kafka", "level": 83, "experience": "Streaming", "highlight": "Event Streaming, Pub-Sub, Telemetry" },
+        { "name": "Render / Cloud Deployment", "level": 94, "experience": "Production", "highlight": "Web Services, Blueprints, Postgres" }
+      ]
+    }
+  ]
+}

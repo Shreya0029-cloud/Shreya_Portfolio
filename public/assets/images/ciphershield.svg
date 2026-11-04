@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="csBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B131F"/>
+      <stop offset="100%" stop-color="#05080E"/>
+    </linearGradient>
+    <linearGradient id="csNeon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#4FACFE"/>
+    </linearGradient>
+    <linearGradient id="csCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142133"/>
+      <stop offset="100%" stop-color="#0D1624"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#csBg)" />
+
+  <!-- Radar Rings in background -->
+  <g opacity="0.15">
+    <circle cx="260" cy="240" r="160" fill="none" stroke="#00F2FE" stroke-width="1.5" stroke-dasharray="4 6"/>
+    <circle cx="260" cy="240" r="110" fill="none" stroke="#00F2FE" stroke-width="1.5"/>
+    <circle cx="260" cy="240" r="60" fill="none" stroke="#00F2FE" stroke-width="1.5"/>
+    <line x1="260" y1="80" x2="260" y2="400" stroke="#00F2FE" stroke-width="1"/>
+    <line x1="100" y1="240" x2="420" y2="240" stroke="#00F2FE" stroke-width="1"/>
+  </g>
+
+  <!-- Top Header -->
+  <rect x="40" y="28" width="720" height="48" rx="10" fill="#101C2B" stroke="#1F344D" stroke-width="1.5"/>
+  <text x="65" y="57" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="17" fill="#FFFFFF">CIPHERSHIELD SOC</text>
+  <rect x="230" y="40" width="135" height="24" rx="6" fill="#00F2FE" fill-opacity="0.15" stroke="#00F2FE" stroke-width="1"/>
+  <text x="297" y="56" font-family="'JetBrains Mono', monospace" font-size="10" fill="#00F2FE" text-anchor="middle">ML FRAUD ENGINE</text>
+  
+  <rect x="380" y="40" width="145" height="24" rx="6" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="1"/>
+  <text x="452" y="56" font-family="'JetBrains Mono', monospace" font-size="10" fill="#10B981" text-anchor="middle">SHA-256 HASH CHAIN</text>
+
+  <rect x="635" y="40" width="105" height="24" rx="6" fill="#EF4444" fill-opacity="0.2" stroke="#EF4444" stroke-width="1"/>
+  <text x="687" y="56" font-family="'JetBrains Mono', monospace" font-size="10" fill="#F87171" text-anchor="middle">⚡ LIVE SOCKET.IO</text>
+
+  <!-- Left: Threat Assessment Radar Panel -->
+  <rect x="40" y="94" width="420" height="320" rx="12" fill="url(#csCard)" stroke="#1F354D" stroke-width="1.5"/>
+  <text x="65" y="130" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Random Forest Risk Engine</text>
+  <text x="65" y="150" font-family="'Inter', sans-serif" font-size="12" fill="#7E9EB8">Real-time Anomaly Scoring • Impossible Travel Detection</text>
+
+  <!-- Threat Dial -->
+  <path d="M 160 300 A 100 100 0 0 1 360 300" fill="none" stroke="#223B54" stroke-width="18" stroke-linecap="round"/>
+  <path d="M 160 300 A 100 100 0 0 1 330 230" fill="none" stroke="url(#csNeon)" stroke-width="18" stroke-linecap="round"/>
+  <text x="260" y="275" font-family="'Space Grotesk', sans-serif" font-size="36" font-weight="900" fill="#00F2FE" text-anchor="middle">98.4%</text>
+  <text x="260" y="295" font-family="'Inter', sans-serif" font-size="11" fill="#7E9EB8" text-anchor="middle">Model Precision</text>
+
+  <rect x="70" y="340" width="360" height="52" rx="8" fill="#0C1522" stroke="#1E3247" stroke-width="1"/>
+  <text x="85" y="362" font-family="'JetBrains Mono', monospace" font-size="11" fill="#F87171">⚠ Impossible Travel Attack: NYC → London (3m)</text>
+  <text x="85" y="380" font-family="'JetBrains Mono', monospace" font-size="10" fill="#94A3B8">Risk Score: 0.94 • Action: Instant Session Revocation</text>
+
+  <!-- Right: Hash Chain & ZK Layer -->
+  <rect x="480" y="94" width="280" height="150" rx="12" fill="url(#csCard)" stroke="#1F354D" stroke-width="1.5"/>
+  <text x="500" y="122" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Tamper-Evident Hash Chain</text>
+  <text x="500" y="145" font-family="'JetBrains Mono', monospace" font-size="10" fill="#38BDF8">Block #1042: a9f8...c302</text>
+  <text x="500" y="165" font-family="'JetBrains Mono', monospace" font-size="10" fill="#34D399">Block #1043: 7b21...e58d (SHA-256 Valid)</text>
+  <rect x="500" y="185" width="240" height="24" rx="4" fill="#0C1622"/>
+  <text x="510" y="201" font-family="'JetBrains Mono', monospace" font-size="10" fill="#10B981">✓ Zero-Knowledge Proof: SnarkJS Verified</text>
+
+  <!-- Right Lower: Architecture Breakdown -->
+  <rect x="480" y="260" width="280" height="154" rx="12" fill="url(#csCard)" stroke="#1F354D" stroke-width="1.5"/>
+  <text x="500" y="288" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Fintech SOC Architecture</text>
+  <rect x="500" y="306" width="240" height="24" rx="6" fill="#122030"/>
+  <text x="510" y="322" font-family="'JetBrains Mono', monospace" font-size="10" fill="#93C5FD">Node.js + Express + Socket.IO</text>
+  <rect x="500" y="336" width="240" height="24" rx="6" fill="#122030"/>
+  <text x="510" y="352" font-family="'JetBrains Mono', monospace" font-size="10" fill="#F472B6">FastAPI + Scikit-Learn Model</text>
+  <rect x="500" y="366" width="240" height="24" rx="6" fill="#122030"/>
+  <text x="510" y="382" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FBBF24">PostgreSQL + Sequelize + Vault</text>
+</svg>

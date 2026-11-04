@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08141F"/>
+      <stop offset="100%" stop-color="#04090F"/>
+    </linearGradient>
+    <linearGradient id="nsCyber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#nsBg)" />
+
+  <!-- Top bar -->
+  <rect x="40" y="28" width="720" height="48" rx="10" fill="#0E1E2E" stroke="#1D374E" stroke-width="1.5"/>
+  <text x="65" y="58" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="17" fill="#FFFFFF">NETSENTINEL AI PRO</text>
+  <rect x="250" y="40" width="130" height="24" rx="6" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="1"/>
+  <text x="315" y="56" font-family="'JetBrains Mono', monospace" font-size="10" fill="#34D399" text-anchor="middle">PCAP INGESTION</text>
+  
+  <rect x="395" y="40" width="155" height="24" rx="6" fill="#06B6D4" fill-opacity="0.15" stroke="#06B6D4" stroke-width="1"/>
+  <text x="472" y="56" font-family="'JetBrains Mono', monospace" font-size="10" fill="#22D3EE" text-anchor="middle">ISOLATION FOREST + RF</text>
+
+  <rect x="625" y="40" width="115" height="24" rx="6" fill="#3B82F6" fill-opacity="0.15" stroke="#3B82F6" stroke-width="1"/>
+  <text x="682" y="56" font-family="'JetBrains Mono', monospace" font-size="10" fill="#60A5FA" text-anchor="middle">RENDER LIVE</text>
+
+  <!-- Left Main Display: Packet Stream & Flow Analysis -->
+  <rect x="40" y="94" width="450" height="320" rx="12" fill="#0D1B2A" stroke="#1D374E" stroke-width="1.5"/>
+  <text x="65" y="128" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Network Threat Analysis Pipeline</text>
+  <text x="65" y="148" font-family="'Inter', sans-serif" font-size="12" fill="#7599B8">Scapy Packet Parsing • 9 TCP Flow Features • Threat Score</text>
+
+  <!-- Threat alert items -->
+  <rect x="65" y="170" width="400" height="42" rx="6" fill="#14263B" stroke="#EF4444" stroke-width="1"/>
+  <text x="80" y="195" font-family="'JetBrains Mono', monospace" font-size="11" fill="#F87171">🚨 SYN Flood Detected • 192.168.1.105 → 10.0.0.1:80</text>
+
+  <rect x="65" y="222" width="400" height="42" rx="6" fill="#14263B" stroke="#F59E0B" stroke-width="1"/>
+  <text x="80" y="247" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FBBF24">⚠ Horizontal Port Scan • 10.0.0.45 [Ports 20-1024]</text>
+
+  <rect x="65" y="274" width="400" height="42" rx="6" fill="#14263B" stroke="#10B981" stroke-width="1"/>
+  <text x="80" y="299" font-family="'JetBrains Mono', monospace" font-size="11" fill="#34D399">✓ Normal HTTPS Flow • 172.16.0.12:443 (Score: 0.02)</text>
+
+  <!-- Attack breakdown pills -->
+  <g transform="translate(65, 335)">
+    <rect width="90" height="28" rx="6" fill="#EF4444" fill-opacity="0.2"/>
+    <text x="45" y="18" font-family="'JetBrains Mono', monospace" font-size="10" fill="#F87171" text-anchor="middle">DoS / DDoS</text>
+    <rect x="100" width="95" height="28" rx="6" fill="#F59E0B" fill-opacity="0.2"/>
+    <text x="147" y="18" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FBBF24" text-anchor="middle">Port Scans</text>
+    <rect x="205" width="95" height="28" rx="6" fill="#8B5CF6" fill-opacity="0.2"/>
+    <text x="252" y="18" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A78BFA" text-anchor="middle">Malformed</text>
+    <rect x="310" width="90" height="28" rx="6" fill="#06B6D4" fill-opacity="0.2"/>
+    <text x="355" y="18" font-family="'JetBrains Mono', monospace" font-size="10" fill="#22D3EE" text-anchor="middle">Anomalies</text>
+  </g>
+
+  <!-- Right Panels: Interactive Networking Lab -->
+  <rect x="510" y="94" width="250" height="150" rx="12" fill="#0D1B2A" stroke="#1D374E" stroke-width="1.5"/>
+  <text x="530" y="122" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Interactive Lab Suite</text>
+  <text x="530" y="145" font-family="'Inter', sans-serif" font-size="11" fill="#7599B8">Virtual educational modules:</text>
+  <text x="530" y="168" font-family="'JetBrains Mono', monospace" font-size="10" fill="#22D3EE">• OSI 7-Layer Visualizer</text>
+  <text x="530" y="188" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A78BFA">• Dijkstra Shortest Path</text>
+  <text x="530" y="208" font-family="'JetBrains Mono', monospace" font-size="10" fill="#34D399">• TCP 3-Way Handshake Sim</text>
+
+  <!-- Right Lower: Architecture Stats -->
+  <rect x="510" y="260" width="250" height="154" rx="12" fill="#0D1B2A" stroke="#1D374E" stroke-width="1.5"/>
+  <text x="530" y="288" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Performance Metrics</text>
+  <text x="530" y="322" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#10B981">99.1%</text>
+  <text x="530" y="342" font-family="'Inter', sans-serif" font-size="11" fill="#7599B8">Anomaly Classification F1</text>
+  <text x="530" y="365" font-family="'JetBrains Mono', monospace" font-size="10" fill="#E2E8F0">10,000+ Packets/sec throughput</text>
+  <text x="530" y="385" font-family="'JetBrains Mono', monospace" font-size="10" fill="#38BDF8">FastAPI + React + Docker</text>
+</svg>

@@ -1,0 +1,121 @@
+/* Theme definitions for Shreya Khadekar Portfolio */
+
+/* 1. Cyber Obsidian (Default) */
+:root, [data-theme="cyber"] {
+  --bg-primary: #070B0E;
+  --bg-secondary: #0D141B;
+  --bg-tertiary: #121D27;
+  --bg-card: rgba(18, 29, 39, 0.75);
+  --bg-card-hover: rgba(24, 39, 53, 0.9);
+  --bg-glass: rgba(13, 20, 27, 0.85);
+  --bg-input: #090E14;
+  
+  --text-main: #F1F5F9;
+  --text-muted: #94A3B8;
+  --text-dim: #64748B;
+  
+  --accent-cyan: #00F2FE;
+  --accent-blue: #38BDF8;
+  --accent-indigo: #6366F1;
+  --accent-violet: #8B5CF6;
+  --accent-emerald: #10B981;
+  --accent-amber: #F59E0B;
+  --accent-rose: #F43F5E;
+  
+  --border-color: rgba(56, 189, 248, 0.15);
+  --border-glow: rgba(0, 242, 254, 0.4);
+  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 25px rgba(0, 242, 254, 0.25);
+  --gradient-brand: linear-gradient(135deg, #00F2FE 0%, #4FACFE 50%, #6366F1 100%);
+  --gradient-badge: linear-gradient(135deg, rgba(0, 242, 254, 0.15) 0%, rgba(99, 102, 241, 0.15) 100%);
+}
+
+/* 2. Matrix Emerald */
+[data-theme="matrix"] {
+  --bg-primary: #040A06;
+  --bg-secondary: #08140D;
+  --bg-tertiary: #0E2216;
+  --bg-card: rgba(14, 34, 22, 0.75);
+  --bg-card-hover: rgba(20, 48, 31, 0.9);
+  --bg-glass: rgba(8, 20, 13, 0.85);
+  --bg-input: #050D08;
+  
+  --text-main: #ECFDF5;
+  --text-muted: #A7F3D0;
+  --text-dim: #6EE7B7;
+  
+  --accent-cyan: #10B981;
+  --accent-blue: #059669;
+  --accent-indigo: #34D399;
+  --accent-violet: #6EE7B7;
+  --accent-emerald: #10B981;
+  --accent-amber: #F59E0B;
+  --accent-rose: #EF4444;
+  
+  --border-color: rgba(16, 185, 129, 0.25);
+  --border-glow: rgba(16, 185, 129, 0.5);
+  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.8);
+  --shadow-glow: 0 0 25px rgba(16, 185, 129, 0.35);
+  --gradient-brand: linear-gradient(135deg, #10B981 0%, #34D399 50%, #059669 100%);
+  --gradient-badge: linear-gradient(135deg, rgba(16, 185, 129, 0.2) 0%, rgba(52, 211, 153, 0.2) 100%);
+}
+
+/* 3. Midnight Nebula */
+[data-theme="nebula"] {
+  --bg-primary: #0A0614;
+  --bg-secondary: #120B24;
+  --bg-tertiary: #1A1033;
+  --bg-card: rgba(26, 16, 51, 0.75);
+  --bg-card-hover: rgba(38, 24, 74, 0.9);
+  --bg-glass: rgba(18, 11, 36, 0.85);
+  --bg-input: #0E071D;
+  
+  --text-main: #FDF4FF;
+  --text-muted: #E9D5FF;
+  --text-dim: #C084FC;
+  
+  --accent-cyan: #C084FC;
+  --accent-blue: #A855F7;
+  --accent-indigo: #8B5CF6;
+  --accent-violet: #D946EF;
+  --accent-emerald: #2DD4BF;
+  --accent-amber: #F59E0B;
+  --accent-rose: #F43F5E;
+  
+  --border-color: rgba(192, 132, 252, 0.2);
+  --border-glow: rgba(217, 70, 239, 0.45);
+  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+  --shadow-glow: 0 0 25px rgba(192, 132, 252, 0.3);
+  --gradient-brand: linear-gradient(135deg, #A855F7 0%, #D946EF 50%, #6366F1 100%);
+  --gradient-badge: linear-gradient(135deg, rgba(168, 85, 247, 0.2) 0%, rgba(217, 70, 239, 0.2) 100%);
+}
+
+/* 4. Clean Executive Studio */
+[data-theme="clean"] {
+  --bg-primary: #0F172A;
+  --bg-secondary: #1E293B;
+  --bg-tertiary: #334155;
+  --bg-card: rgba(30, 41, 59, 0.8);
+  --bg-card-hover: rgba(51, 65, 85, 0.95);
+  --bg-glass: rgba(15, 23, 42, 0.9);
+  --bg-input: #0F172A;
+  
+  --text-main: #F8FAFC;
+  --text-muted: #CBD5E1;
+  --text-dim: #94A3B8;
+  
+  --accent-cyan: #38BDF8;
+  --accent-blue: #0EA5E9;
+  --accent-indigo: #6366F1;
+  --accent-violet: #818CF8;
+  --accent-emerald: #10B981;
+  --accent-amber: #F59E0B;
+  --accent-rose: #F43F5E;
+  
+  --border-color: rgba(255, 255, 255, 0.12);
+  --border-glow: rgba(56, 189, 248, 0.35);
+  --shadow-card: 0 12px 32px -8px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 20px rgba(56, 189, 248, 0.2);
+  --gradient-brand: linear-gradient(135deg, #38BDF8 0%, #818CF8 100%);
+  --gradient-badge: linear-gradient(135deg, rgba(56, 189, 248, 0.12) 0%, rgba(129, 140, 248, 0.12) 100%);
+}

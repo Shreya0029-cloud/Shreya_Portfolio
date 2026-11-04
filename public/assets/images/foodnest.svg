@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fnBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1724"/>
+      <stop offset="100%" stop-color="#070B11"/>
+    </linearGradient>
+    <linearGradient id="fnAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5E62"/>
+      <stop offset="100%" stop-color="#FF9966"/>
+    </linearGradient>
+    <linearGradient id="fnCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#182333"/>
+      <stop offset="100%" stop-color="#101924"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#fnBg)" />
+  
+  <!-- Subtle Grid -->
+  <g opacity="0.1" stroke="#4FACFE" stroke-width="1">
+    <line x1="0" y1="75" x2="800" y2="75"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="225" x2="800" y2="225"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="100" y1="0" x2="100" y2="450"/>
+    <line x1="250" y1="0" x2="250" y2="450"/>
+    <line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="550" y1="0" x2="550" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+
+  <!-- App Header Bar -->
+  <rect x="40" y="30" width="720" height="48" rx="10" fill="#141E2B" stroke="#253549" stroke-width="1.5"/>
+  <circle cx="65" cy="54" r="6" fill="#FF5E62"/>
+  <circle cx="83" cy="54" r="6" fill="#FBBF24"/>
+  <circle cx="101" cy="54" r="6" fill="#10B981"/>
+  <text x="135" y="58" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="16" fill="#FFFFFF">FOODNEST</text>
+  <rect x="230" y="42" width="130" height="24" rx="6" fill="#FF5E62" fill-opacity="0.2"/>
+  <text x="295" y="58" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FF9966" text-anchor="middle">ROLE: RBAC 3-TIER</text>
+  
+  <rect x="610" y="42" width="130" height="24" rx="6" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="1"/>
+  <text x="675" y="58" font-family="'JetBrains Mono', monospace" font-size="11" fill="#34D399" text-anchor="middle">⚡ 25+ REST APIs</text>
+
+  <!-- Left Main Panel: Restaurant & GPS Live Tracking -->
+  <rect x="40" y="96" width="440" height="314" rx="12" fill="url(#fnCard)" stroke="#223347" stroke-width="1.5"/>
+  <text x="64" y="132" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Real-Time Order &amp; GPS Routing</text>
+  <text x="64" y="152" font-family="'Inter', sans-serif" font-size="12" fill="#8899A6">PostgreSQL • Razorpay Verified • Cloudinary CDN</text>
+
+  <!-- Route Visualizer -->
+  <path d="M80 320 C 140 240, 220 300, 320 220 S 410 240, 430 180" fill="none" stroke="url(#fnAccent)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="80" cy="320" r="10" fill="#FF5E62" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="80" y="350" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FF8877" text-anchor="middle">Customer (GPS)</text>
+  
+  <circle cx="430" cy="180" r="10" fill="#10B981" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="410" y="160" font-family="'JetBrains Mono', monospace" font-size="11" fill="#10B981" text-anchor="middle">Vendor Kitchen</text>
+
+  <!-- Live Pulse Point -->
+  <circle cx="270" cy="245" r="7" fill="#FBBF24" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="235" y="200" width="85" height="22" rx="4" fill="#0D1520" stroke="#FBBF24" stroke-width="1"/>
+  <text x="277" y="215" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FBBF24" text-anchor="middle">En Route • 6m</text>
+
+  <!-- Right Stacked Widgets -->
+  <!-- Widget 1: Vendor Dashboard Stats -->
+  <rect x="500" y="96" width="260" height="150" rx="12" fill="url(#fnCard)" stroke="#223347" stroke-width="1.5"/>
+  <text x="520" y="124" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Vendor Analytics</text>
+  <text x="520" y="162" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" fill="#34D399">₹142,850</text>
+  <text x="520" y="182" font-family="'Inter', sans-serif" font-size="11" fill="#8899A6">Razorpay Server-Side Verified</text>
+  <rect x="520" y="200" width="220" height="6" rx="3" fill="#203042"/>
+  <rect x="520" y="200" width="175" height="6" rx="3" fill="#34D399"/>
+
+  <!-- Widget 2: AI Support Assistant -->
+  <rect x="500" y="260" width="260" height="150" rx="12" fill="url(#fnCard)" stroke="#223347" stroke-width="1.5"/>
+  <text x="520" y="288" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">AI Assistant &amp; RBAC</text>
+  <rect x="520" y="304" width="220" height="34" rx="8" fill="#141F2D"/>
+  <text x="532" y="325" font-family="'Inter', sans-serif" font-size="11" fill="#99B3CC">"Order #4829 out for delivery"</text>
+  <rect x="520" y="348" width="105" height="24" rx="6" fill="#6366F1" fill-opacity="0.2"/>
+  <text x="572" y="364" font-family="'JetBrains Mono', monospace" font-size="10" fill="#818CF8" text-anchor="middle">JWT AUTH</text>
+  <rect x="635" y="348" width="105" height="24" rx="6" fill="#EC4899" fill-opacity="0.2"/>
+  <text x="687" y="364" font-family="'JetBrains Mono', monospace" font-size="10" fill="#F472B6" text-anchor="middle">OTP VERIFIED</text>
+</svg>

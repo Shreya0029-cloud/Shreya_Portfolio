@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cyber">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shreya Khadekar — Full-Stack Software Engineer &amp; AI/ML Specialist | Portfolio</title>
+  <meta name="description" content="Portfolio of Shreya Rajendra Khadekar. Computer Science Engineering student at VIT Vellore (2027, CGPA 8.3) specializing in Full-Stack Web Development, Scalable Backends, AI/ML, and Generative AI. 200+ LeetCode DSA, 10+ production projects.">
+  <meta name="keywords" content="Shreya Khadekar, Full Stack Developer, AI ML Engineer, Generative AI, VIT Vellore, React, Node.js, FastAPI, Python, PostgreSQL, Three.js, LeetCode">
+  <meta name="author" content="Shreya Rajendra Khadekar">
+
+  <!-- OpenGraph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shreya Khadekar — Full-Stack &amp; AI Engineer Portfolio">
+  <meta property="og:description" content="Explore 10+ production projects in Full-Stack, AI/ML, and Cyber Defense, 200+ LeetCode solutions, and enterprise internships at IBM &amp; Codec Technologies.">
+  <meta property="og:image" content="assets/images/avatar.svg">
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/avatar.svg">
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Particle Constellation Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand">
+        <div class="brand-monogram">SK</div>
+        <div class="brand-text">
+          <span class="brand-name font-heading">Shreya Khadekar</span>
+          <span class="brand-title">CSE @ VIT VELLORE</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#leetcode" class="nav-link">LeetCode &amp; Labs</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#certifications" class="nav-link">Credentials</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Selector -->
+        <select id="theme-select" class="theme-selector" title="Select UI Theme">
+          <option value="cyber">Cyber Obsidian</option>
+          <option value="matrix">Matrix Emerald</option>
+          <option value="nebula">Midnight Nebula</option>
+          <option value="clean">Clean Studio</option>
+        </select>
+
+        <!-- Terminal Trigger -->
+        <button type="button" class="btn-terminal-trigger" title="Launch Interactive Terminal (Key: `)">
+          <span>&gt;_</span> Terminal
+        </button>
+
+        <a href="#contact" class="btn-primary">Hire Me ▹</a>
+
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-wrap">
+            <div class="badge-live-status">
+              <span class="pulse-dot"></span>
+              <span>Available for Full-Time SWE / AI Roles &amp; Internships</span>
+            </div>
+          </div>
+
+          <h1 class="hero-title font-heading">
+            Engineering <span class="text-gradient">Intelligent, Scalable</span> Systems &amp; AI Architectures.
+          </h1>
+
+          <div class="hero-role-wrapper">
+            <span>Specializing in</span>
+            <span class="typed-role" id="typed-role"></span>
+            <span class="typing-cursor"></span>
+          </div>
+
+          <p class="hero-bio">
+            Computer Science Engineering student at <strong>VIT Vellore (Class of 2027, CGPA 8.3)</strong> bridging full-stack web engineering, distributed microservices, and applied Generative AI. Built and deployed <strong>10+ production applications</strong> with React, Node.js, Express, FastAPI, PostgreSQL, and Three.js, alongside <strong>200+ solved LeetCode DSA problems</strong> and enterprise internships at <strong>Codec Technologies</strong> and <strong>IBM</strong>.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">Explore Featured Projects ▹</a>
+            <a href="https://drive.google.com/file/d/11pYzan01sypPxp_8Ir9HEPBTGqRMr3Na/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+              View Resume (Drive) ↗
+            </a>
+            <button type="button" class="btn-secondary btn-terminal-trigger">
+              Open Terminal CLI [~]
+            </button>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://linkedin.com/in/shreya-khadekar-b5142328b" target="_blank" rel="noopener noreferrer" class="social-pill" title="LinkedIn Profile">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.738-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/Shreya0029-cloud" target="_blank" rel="noopener noreferrer" class="social-pill" title="GitHub Repositories">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://leetcode.com/u/vUXivDGDHV/" target="_blank" rel="noopener noreferrer" class="social-pill" title="LeetCode Competitive Profile">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.162a4.492 4.492 0 0 0-.585-.038h-.452z"/></svg>
+              <span>200+ LeetCode</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3D Hologram Developer Card -->
+        <div class="hero-visual">
+          <div class="hologram-card">
+            <div class="avatar-wrapper">
+              <img src="assets/images/avatar.svg" alt="Shreya Khadekar Dev Avatar" class="avatar-img">
+            </div>
+            <div class="holo-meta">
+              <h3 class="holo-name font-heading">Shreya Khadekar</h3>
+              <p class="holo-college">B.Tech CSE '27 • VIT Vellore (8.3 CGPA)</p>
+              <div class="holo-tags">
+                <span class="holo-tag">Full-Stack</span>
+                <span class="holo-tag">FastAPI</span>
+                <span class="holo-tag">React</span>
+                <span class="holo-tag">GenAI</span>
+                <span class="holo-tag">Postgres</span>
+                <span class="holo-tag">Docker</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Key Metrics Banner -->
+      <div class="metrics-banner">
+        <div class="metric-item">
+          <span class="metric-number">10+</span>
+          <span class="metric-label">Production &amp; AI Projects</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-number">200+</span>
+          <span class="metric-label">LeetCode Problems Solved</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-number">2</span>
+          <span class="metric-label">Enterprise Internships (IBM &amp; Codec)</span>
+        </div>
+        <div class="metric-item">
+          <span class="metric-number">8.3</span>
+          <span class="metric-label">CGPA @ VIT Vellore</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Showcase Section -->
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Portfolio Work</span>
+        <h2 class="section-title font-heading">Engineered Systems &amp; Deployments</h2>
+        <p class="section-desc">
+          A showcase of full-stack web platforms, machine learning security models, multi-agent AI systems, and interactive 3D browser worlds. Each project represents production-grade architecture and real deployment experience.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="project-filters">
+        <button type="button" class="filter-btn active" data-filter="all">All Projects (11)</button>
+        <button type="button" class="filter-btn" data-filter="fullstack">Full-Stack &amp; Cloud</button>
+        <button type="button" class="filter-btn" data-filter="ai">AI &amp; Machine Learning</button>
+        <button type="button" class="filter-btn" data-filter="security">Cybersecurity &amp; Networks</button>
+        <button type="button" class="filter-btn" data-filter="gamedev">Game Dev &amp; 3D Web</button>
+      </div>
+
+      <!-- Dynamic Projects Grid -->
+      <div class="projects-grid" id="projects-grid">
+        <!-- Rendered dynamically by app.js from /api/projects -->
+      </div>
+    </div>
+  </section>
+
+  <!-- LeetCode & Live Interactive Labs -->
+  <section id="leetcode" class="section-padding leetcode-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Problem Solving &amp; Diagnostics</span>
+        <h2 class="section-title font-heading">Algorithmic Mastery &amp; Interactive Lab</h2>
+        <p class="section-desc">
+          Continuous algorithmic practice on LeetCode combined with interactive computational simulations in sorting, binary search, and risk evaluation.
+        </p>
+      </div>
+
+      <div class="leetcode-grid">
+        <!-- LeetCode Profile Box -->
+        <div class="leetcode-stat-box">
+          <div class="lc-header">
+            <div class="lc-brand">
+              <svg class="lc-icon" viewBox="0 0 24 24" fill="#FFA116"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.162a4.492 4.492 0 0 0-.585-.038h-.452z"/></svg>
+              <div>
+                <h3 class="lc-username font-heading">LeetCode Profile</h3>
+                <span style="font-family:'JetBrains Mono'; font-size:0.8rem; color:#88A8CC;">User: vUXivDGDHV</span>
+              </div>
+            </div>
+            <div class="lc-solved-total">
+              <span class="lc-total-num">200+</span>
+              <span class="lc-total-label">Solved Problems</span>
+            </div>
+          </div>
+
+          <div class="lc-bars-grid">
+            <div class="lc-bar-item">
+              <div class="lc-bar-meta">
+                <span style="color:#00B8A3;">Easy</span>
+                <span>85+ Solved</span>
+              </div>
+              <div class="lc-progress-track">
+                <div class="lc-progress-fill fill-easy"></div>
+              </div>
+            </div>
+            <div class="lc-bar-item">
+              <div class="lc-bar-meta">
+                <span style="color:#FFC01E;">Medium</span>
+                <span>105+ Solved</span>
+              </div>
+              <div class="lc-progress-track">
+                <div class="lc-progress-fill fill-med"></div>
+              </div>
+            </div>
+            <div class="lc-bar-item">
+              <div class="lc-bar-meta">
+                <span style="color:#EF4743;">Hard</span>
+                <span>15+ Solved</span>
+              </div>
+              <div class="lc-progress-track">
+                <div class="lc-progress-fill fill-hard"></div>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-bottom:1.5rem;">
+            <span style="font-size:0.8rem; color:var(--text-dim); font-family:'JetBrains Mono'; display:block; margin-bottom:0.6rem;">Key Algorithmic Competencies:</span>
+            <div style="display:flex; flex-wrap:wrap; gap:0.4rem;">
+              <span class="tag-pill">Dynamic Programming</span>
+              <span class="tag-pill">Binary Trees &amp; BST</span>
+              <span class="tag-pill">Graphs (BFS/DFS)</span>
+              <span class="tag-pill">Two Pointers</span>
+              <span class="tag-pill">Sliding Window</span>
+              <span class="tag-pill">Hash Maps</span>
+            </div>
+          </div>
+
+          <a href="https://leetcode.com/u/vUXivDGDHV/" target="_blank" rel="noopener noreferrer" class="btn-primary" style="width:100%; justify-content:center;">
+            View Official LeetCode Profile ↗
+          </a>
+        </div>
+
+        <!-- Interactive Algorithm Visualizer -->
+        <div class="visualizer-card">
+          <div class="viz-header">
+            <h3 class="viz-title font-heading">Algorithm Visualizer</h3>
+            <div class="viz-controls">
+              <select id="viz-algo-select" class="viz-select">
+                <option value="bubble">Bubble Sort</option>
+                <option value="binary">Binary Search (O(log n))</option>
+              </select>
+              <button type="button" class="btn-viz-run" id="btn-viz-run">Simulate ▹</button>
+            </div>
+          </div>
+
+          <!-- Array Bar Container -->
+          <div class="viz-canvas-area" id="viz-canvas-area"></div>
+
+          <!-- Real-Time Log Output -->
+          <div class="viz-status-log" id="viz-status-log">
+            Array initialized. Click "Simulate" to execute algorithm visualization.
+          </div>
+        </div>
+      </div>
+
+      <!-- CipherShield Live Fraud Detection Simulator -->
+      <div class="playground-box">
+        <div style="margin-bottom:1.25rem;">
+          <span class="exp-badge">Interactive System Playground</span>
+          <h3 class="font-heading" style="font-size:1.45rem; font-weight:700; margin-top:0.35rem;">
+            CipherShield ML Risk Scoring Simulator
+          </h3>
+          <p style="font-size:0.9rem; color:var(--text-muted);">
+            Test Shreya's real-time fraud assessment heuristics live in this browser sandbox. Adjust transaction parameters below to evaluate risk levels, impossible travel velocity triggers, and automated SOC actions.
+          </p>
+        </div>
+
+        <form id="fraud-sim-form">
+          <div class="pg-form-grid">
+            <div class="pg-field">
+              <label for="pg-amount">Transaction Amount ($ USD)</label>
+              <input type="number" id="pg-amount" class="pg-input" value="1250" min="1" max="50000">
+            </div>
+            <div class="pg-field">
+              <label for="pg-location">Current Card Location</label>
+              <select id="pg-location" class="pg-select">
+                <option value="New York, USA" selected>New York, USA</option>
+                <option value="London, UK">London, UK</option>
+                <option value="Tokyo, Japan">Tokyo, Japan</option>
+                <option value="Mumbai, India">Mumbai, India</option>
+              </select>
+            </div>
+            <div class="pg-field">
+              <label for="pg-prev-location">Previous Transaction Location</label>
+              <select id="pg-prev-location" class="pg-select">
+                <option value="London, UK" selected>London, UK</option>
+                <option value="New York, USA">New York, USA</option>
+                <option value="Tokyo, Japan">Tokyo, Japan</option>
+                <option value="Mumbai, India">Mumbai, India</option>
+              </select>
+            </div>
+            <div class="pg-field">
+              <label for="pg-timedelta">Time Elapsed (Minutes)</label>
+              <input type="number" id="pg-timedelta" class="pg-input" value="12" min="1" max="1440">
+            </div>
+            <div class="pg-checkbox-field">
+              <input type="checkbox" id="pg-vpn">
+              <label for="pg-vpn">Anonymized VPN / Proxy IP</label>
+            </div>
+            <div class="pg-checkbox-field">
+              <input type="checkbox" id="pg-device">
+              <label for="pg-device">Unrecognized Hardware Fingerprint</label>
+            </div>
+          </div>
+          <button type="submit" class="btn-primary">Run Fraud Detection ML Model ▹</button>
+        </form>
+
+        <div class="pg-result-display" id="pg-result-display"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Internships Timeline -->
+  <section id="experience" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Professional History</span>
+        <h2 class="section-title font-heading">Internships &amp; Engineering Roles</h2>
+        <p class="section-desc">
+          Hands-on professional experience building scalable backend APIs, enterprise generative AI pipelines, and leading cross-functional design and engineering initiatives.
+        </p>
+      </div>
+
+      <div class="timeline-wrap">
+        <!-- Timeline Item 1: Codec Technologies -->
+        <div class="timeline-item">
+          <div class="timeline-node"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="exp-role font-heading">Full Stack Developer Intern</h3>
+              <span class="exp-period">03/2026 – 06/2026</span>
+            </div>
+            <p class="exp-company">Codec Technologies Pvt. Ltd. • Remote</p>
+            <span class="exp-badge">Full-Stack &amp; REST APIs</span>
+            <ul class="exp-bullets">
+              <li>Engineered 8+ RESTful API endpoints across 3–4 MongoDB database models using React.js, Node.js, and Express.js, standardizing CRUD workflows and route security.</li>
+              <li>Implemented JWT authentication and Role-Based Access Control (RBAC) to enforce secure authorization rules and prevent privilege escalation across user tiers.</li>
+              <li>Applied Generative AI tools and structured prompt engineering to streamline unit testing and debugging, slashing bug iteration cycle time by an estimated 15–20%.</li>
+              <li>Maintained clean, version-controlled code using Git/GitHub workflows, conducting peer reviews and ensuring rigorous backend input sanitization.</li>
+            </ul>
+            <div class="exp-techs">
+              <span class="tag-pill">React.js</span>
+              <span class="tag-pill">Node.js</span>
+              <span class="tag-pill">Express.js</span>
+              <span class="tag-pill">MongoDB</span>
+              <span class="tag-pill">JWT</span>
+              <span class="tag-pill">RBAC</span>
+              <span class="tag-pill">Git</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2: IBM watsonx -->
+        <div class="timeline-item">
+          <div class="timeline-node"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="exp-role font-heading">Generative AI Intern</h3>
+              <span class="exp-period">04/2025 – 06/2025</span>
+            </div>
+            <p class="exp-company">IBM SkillsBuild • Enterprise AI</p>
+            <span class="exp-badge">Enterprise Generative AI &amp; Foundation Models</span>
+            <ul class="exp-bullets">
+              <li>Earned the "GEN AI Using IBM watsonx" certification, gaining practical enterprise experience with Foundation Models, LLMs, and prompt engineering pipelines.</li>
+              <li>Designed, tested, and iterated on specialized prompt architectures for real-world enterprise use cases, enhancing response fidelity and contextual grounding.</li>
+              <li>Applied Responsible AI principles, model evaluation frameworks, and safety guardrails to develop robust, hallucination-resistant generative AI workflows.</li>
+              <li>Explored automated document synthesis and tailored content generation connecting enterprise data sources to LLM inferences.</li>
+            </ul>
+            <div class="exp-techs">
+              <span class="tag-pill">IBM watsonx</span>
+              <span class="tag-pill">Foundation Models</span>
+              <span class="tag-pill">Prompt Engineering</span>
+              <span class="tag-pill">Responsible AI</span>
+              <span class="tag-pill">Python</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3: Geospatial Club Design Head -->
+        <div class="timeline-item">
+          <div class="timeline-node"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3 class="exp-role font-heading">Design Head (Leadership Role)</h3>
+              <span class="exp-period">2024 – Present</span>
+            </div>
+            <p class="exp-company">Geospatial Club, VIT Vellore</p>
+            <span class="exp-badge">Product Design &amp; Team Leadership</span>
+            <ul class="exp-bullets">
+              <li>Directing a 15-member design and UI/UX team orchestrating visual identity, user research, and interactive assets for university-wide geospatial technology events.</li>
+              <li>Bridging product design and software engineering to maintain consistent UI components, design systems, and responsive usability standards across hackathon submissions.</li>
+              <li>Mentored junior team members in modern UI ergonomics, typography, color accessibility, and web ergonomics.</li>
+            </ul>
+            <div class="exp-techs">
+              <span class="tag-pill">Product Design</span>
+              <span class="tag-pill">Figma</span>
+              <span class="tag-pill">Design Systems</span>
+              <span class="tag-pill">Team Leadership (15)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills Matrix -->
+  <section id="skills" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Technical Capabilities</span>
+        <h2 class="section-title font-heading">Skills &amp; Technology Stack</h2>
+        <p class="section-desc">
+          Proficiency across core computer science disciplines, full-stack frameworks, machine learning libraries, and cloud infrastructure platforms.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Category 1: Core CS & Languages -->
+        <div class="skill-category-card">
+          <h3 class="skill-card-title font-heading">
+            <span style="color:var(--accent-cyan);">01.</span> Core CS &amp; Languages
+          </h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Python (FastAPI, Scikit-learn, Scapy)</span>
+                <span class="skill-level-text">95%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 95%;"></div></div>
+              <span class="skill-highlight">3+ yrs • Backend, Machine Learning &amp; Automation</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Data Structures &amp; Algorithms</span>
+                <span class="skill-level-text">94%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 94%;"></div></div>
+              <span class="skill-highlight">200+ LeetCode Solved • DP, Trees, Graphs</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">JavaScript / TypeScript (ES6+)</span>
+                <span class="skill-level-text">92%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 92%;"></div></div>
+              <span class="skill-highlight">3+ yrs • React, Node, Express, Three.js</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Java, C &amp; C++</span>
+                <span class="skill-level-text">88%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 88%;"></div></div>
+              <span class="skill-highlight">OOP, Concurrency, Pointers, Memory Management</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">DBMS, OS &amp; Computer Networks</span>
+                <span class="skill-level-text">92%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 92%;"></div></div>
+              <span class="skill-highlight">TCP/IP, Sockets, ACID, Process Scheduling</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2: Full-Stack & Frameworks -->
+        <div class="skill-category-card">
+          <h3 class="skill-card-title font-heading">
+            <span style="color:var(--accent-cyan);">02.</span> Full-Stack &amp; Frameworks
+          </h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">React.js &amp; Next.js</span>
+                <span class="skill-level-text">94%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 94%;"></div></div>
+              <span class="skill-highlight">Vite, Hooks, Custom State, Responsive SPAs</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Node.js &amp; Express.js</span>
+                <span class="skill-level-text">93%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 93%;"></div></div>
+              <span class="skill-highlight">REST APIs, Async Pipelines, Middleware</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">FastAPI (Python)</span>
+                <span class="skill-level-text">92%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 92%;"></div></div>
+              <span class="skill-highlight">Async IO, Pydantic Schemas, Microservices</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">JWT &amp; RBAC Security Architecture</span>
+                <span class="skill-level-text">95%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 95%;"></div></div>
+              <span class="skill-highlight">Multi-role Guards, Bcrypt, Token Revocation</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Three.js &amp; WebGL 3D</span>
+                <span class="skill-level-text">86%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 86%;"></div></div>
+              <span class="skill-highlight">3D Meshes, Shaders, Procedural World Physics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3: AI/ML & Generative AI -->
+        <div class="skill-category-card">
+          <h3 class="skill-card-title font-heading">
+            <span style="color:var(--accent-cyan);">03.</span> AI / ML &amp; Generative AI
+          </h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Machine Learning (Scikit-learn, XGBoost)</span>
+                <span class="skill-level-text">94%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 94%;"></div></div>
+              <span class="skill-highlight">Random Forest, Isolation Forest, Anomaly Detection</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Generative AI &amp; IBM watsonx</span>
+                <span class="skill-level-text">93%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 93%;"></div></div>
+              <span class="skill-highlight">Certified • Foundation Models &amp; Prompt Governance</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Prompt Engineering &amp; Few-Shot Chaining</span>
+                <span class="skill-level-text">95%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 95%;"></div></div>
+              <span class="skill-highlight">Chain-of-Thought, Zero-Shot, Anti-Hallucination</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">RAG &amp; Vector DBs (ChromaDB)</span>
+                <span class="skill-level-text">90%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 90%;"></div></div>
+              <span class="skill-highlight">Embeddings, Semantic Search, Multi-Agent Swarms</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Data Analytics (Pandas, NumPy)</span>
+                <span class="skill-level-text">92%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 92%;"></div></div>
+              <span class="skill-highlight">Google Certified • Statistical Inference &amp; Cleansing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 4: Databases, Cloud & DevOps -->
+        <div class="skill-category-card">
+          <h3 class="skill-card-title font-heading">
+            <span style="color:var(--accent-cyan);">04.</span> Databases &amp; Cloud DevOps
+          </h3>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">PostgreSQL &amp; MongoDB</span>
+                <span class="skill-level-text">93%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 93%;"></div></div>
+              <span class="skill-highlight">Indexing, Auto-Migrations, NoSQL Aggregation</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">AWS Cloud Services (Solutions Architect)</span>
+                <span class="skill-level-text">89%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 89%;"></div></div>
+              <span class="skill-highlight">EC2, S3, Lambda, RDS, IAM, VPC, CloudWatch</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Docker &amp; Containers</span>
+                <span class="skill-level-text">88%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 88%;"></div></div>
+              <span class="skill-highlight">Multi-Stage Dockerfiles, Compose, Orchestration</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Kubernetes, Terraform &amp; Kafka</span>
+                <span class="skill-level-text">83%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 83%;"></div></div>
+              <span class="skill-highlight">Declarative Infrastructure as Code &amp; Telemetry</span>
+            </div>
+            <div class="skill-item">
+              <div class="skill-meta">
+                <span class="skill-name">Render / Production Deployment</span>
+                <span class="skill-level-text">95%</span>
+              </div>
+              <div class="skill-track"><div class="skill-fill" style="width: 95%;"></div></div>
+              <span class="skill-highlight">Live Web Services, PostgreSQL Blueprints, CI/CD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Academic Background -->
+  <section id="certifications" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Credentials &amp; Education</span>
+        <h2 class="section-title font-heading">Certifications &amp; Academics</h2>
+        <p class="section-desc">
+          Industry-recognized credentials from AWS, Google, Microsoft, and IBM, alongside distinguished academic performance.
+        </p>
+      </div>
+
+      <!-- Certifications Grid -->
+      <div class="certs-grid">
+        <div class="cert-card">
+          <span class="cert-badge">Cloud Architecture</span>
+          <h3 class="cert-title font-heading">AWS Cloud Solutions Architect Professional</h3>
+          <p class="cert-issuer">Amazon Web Services (AWS)</p>
+          <div class="cert-skills">
+            <span class="tag-pill">EC2</span>
+            <span class="tag-pill">S3</span>
+            <span class="tag-pill">Lambda</span>
+            <span class="tag-pill">RDS</span>
+            <span class="tag-pill">VPC</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <span class="cert-badge">Data &amp; Analytics</span>
+          <h3 class="cert-title font-heading">Google Data Analytics Professional</h3>
+          <p class="cert-issuer">Google Career Certificates</p>
+          <div class="cert-skills">
+            <span class="tag-pill">SQL</span>
+            <span class="tag-pill">Tableau</span>
+            <span class="tag-pill">Data Cleansing</span>
+            <span class="tag-pill">R</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <span class="cert-badge">Artificial Intelligence</span>
+          <h3 class="cert-title font-heading">Microsoft AI &amp; ML Certificate</h3>
+          <p class="cert-issuer">Microsoft</p>
+          <div class="cert-skills">
+            <span class="tag-pill">Neural Nets</span>
+            <span class="tag-pill">Machine Learning</span>
+            <span class="tag-pill">Azure AI</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <span class="cert-badge">Generative AI</span>
+          <h3 class="cert-title font-heading">GEN AI Using IBM watsonx</h3>
+          <p class="cert-issuer">IBM SkillsBuild</p>
+          <div class="cert-skills">
+            <span class="tag-pill">watsonx</span>
+            <span class="tag-pill">Foundation Models</span>
+            <span class="tag-pill">Prompt Engineering</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education Cards -->
+      <div class="edu-grid">
+        <div class="edu-card">
+          <span class="edu-period">2023 – 2027</span>
+          <h3 class="edu-degree font-heading">B.Tech. in Computer Science &amp; Engineering</h3>
+          <p class="edu-institution">Vellore Institute of Technology (VIT Vellore)</p>
+          <span class="edu-score">CGPA: 8.3 / 10.0</span>
+          <p class="edu-details">
+            Vellore, Tamil Nadu. Rigorous coursework in DSA, Operating Systems, DBMS, Computer Networks, Software Engineering, and AI/ML.
+          </p>
+        </div>
+
+        <div class="edu-card">
+          <span class="edu-period">2020 – 2022</span>
+          <h3 class="edu-degree font-heading">Higher Secondary (11th &amp; 12th) Science</h3>
+          <p class="edu-institution">Rural College</p>
+          <span class="edu-score">Percentage: 84.83%</span>
+          <p class="edu-details">
+            Amravati, Maharashtra. Core science curriculum focusing on Mathematics, Physics, Chemistry, and Computer Science.
+          </p>
+        </div>
+
+        <div class="edu-card">
+          <span class="edu-period">2019 – 2020</span>
+          <h3 class="edu-degree font-heading">Secondary School (10th Standard)</h3>
+          <p class="edu-institution">Holy Cross High School</p>
+          <span class="edu-score" style="color:var(--accent-emerald); background:rgba(16,185,129,0.15);">Percentage: 100% (Perfect Score)</span>
+          <p class="edu-details">
+            Amravati, Maharashtra. Flawless 100% score in board examinations; awarded highest academic distinction.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Recruiter Connect Section -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Get In Touch</span>
+        <h2 class="section-title font-heading">Initiate Recruitment / Collaboration</h2>
+        <p class="section-desc">
+          Actively seeking Software Engineering, Backend Developer, and AI/ML roles for 2026/2027 internships and full-time placement opportunities.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Meta Card -->
+        <div class="contact-info-card">
+          <h3 class="font-heading" style="font-size:1.4rem; font-weight:700; margin-bottom:0.5rem;">
+            Let's Build Something Impactful
+          </h3>
+          <p style="font-size:0.92rem; color:var(--text-muted); line-height:1.6;">
+            I respond within 24 hours to recruiter inquiries, technical discussions, and collaborative opportunities.
+          </p>
+
+          <div class="contact-details-list">
+            <div class="contact-item">
+              <div class="contact-item-icon">✉</div>
+              <div class="contact-item-meta">
+                <span class="contact-item-label">Direct Email</span>
+                <a href="mailto:shreyakhadekar@gmail.com" class="contact-item-value">shreyakhadekar@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">📞</div>
+              <div class="contact-item-meta">
+                <span class="contact-item-label">Direct Phone</span>
+                <a href="tel:+919637266237" class="contact-item-value">+91 9637266237</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <div class="contact-item-meta">
+                <span class="contact-item-label">Primary Locations</span>
+                <span class="contact-item-value">Amravati, Maharashtra / Vellore, Tamil Nadu</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">🔗</div>
+              <div class="contact-item-meta">
+                <span class="contact-item-label">LinkedIn Profile</span>
+                <a href="https://linkedin.com/in/shreya-khadekar-b5142328b" target="_blank" rel="noopener noreferrer" class="contact-item-value">linkedin.com/in/shreya-khadekar-b5142328b ↗</a>
+              </div>
+            </div>
+          </div>
+
+          <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
+            <button type="button" class="btn-secondary" id="btn-copy-email">Copy Email Address</button>
+            <a href="https://drive.google.com/file/d/11pYzan01sypPxp_8Ir9HEPBTGqRMr3Na/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-primary">
+              Download Resume (PDF) ↗
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form Card -->
+        <div class="contact-form-card">
+          <h3 class="font-heading" style="font-size:1.3rem; font-weight:700; margin-bottom:1.25rem;">
+            Send a Direct Transmission
+          </h3>
+
+          <div id="form-status" class="form-status"></div>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="contact-name">Your Full Name / Recruiter Name *</label>
+              <input type="text" id="contact-name" class="form-control" placeholder="e.g. Alex Johnson" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email">Your Work Email *</label>
+              <input type="email" id="contact-email" class="form-control" placeholder="e.g. alex@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-subject">Opportunity / Subject</label>
+              <input type="text" id="contact-subject" class="form-control" placeholder="e.g. Software Engineer Interview Invitation">
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Message Details *</label>
+              <textarea id="contact-message" class="form-control" placeholder="Tell me about the role, team, or opportunity..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width:100%; justify-content:center;">
+              Send Message ▹
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <span class="brand-name font-heading" style="font-size:1.2rem; display:block; margin-bottom:0.25rem;">Shreya Rajendra Khadekar</span>
+          <p style="font-size:0.85rem; color:var(--text-dim);">Full-Stack Software Engineer • Machine Learning • CSE @ VIT Vellore</p>
+        </div>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="https://linkedin.com/in/shreya-khadekar-b5142328b" target="_blank" rel="noopener noreferrer" style="color:var(--text-muted); font-size:0.9rem;">LinkedIn</a>
+          <a href="https://github.com/Shreya0029-cloud" target="_blank" rel="noopener noreferrer" style="color:var(--text-muted); font-size:0.9rem;">GitHub</a>
+          <a href="https://leetcode.com/u/vUXivDGDHV/" target="_blank" rel="noopener noreferrer" style="color:var(--text-muted); font-size:0.9rem;">LeetCode</a>
+          <a href="mailto:shreyakhadekar@gmail.com" style="color:var(--text-muted); font-size:0.9rem;">Email</a>
+        </div>
+      </div>
+      <div style="border-top:1px solid rgba(255,255,255,0.06); padding-top:1.5rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+        <p class="footer-copy">© 2026 Shreya Rajendra Khadekar. Built with precision, performance, and real engineering.</p>
+        <a href="#hero" style="font-family:'JetBrains Mono'; font-size:0.8rem; color:var(--accent-cyan);">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Recruiter Copilot (AI Twin Chatbot Trigger) -->
+  <div class="ai-copilot-trigger" id="ai-copilot-trigger" title="Ask Shreya's AI Recruiter Twin">
+    <span>🤖</span>
+    <span>Ask Shreya's AI Twin</span>
+  </div>
+
+  <!-- AI Twin Chat Window -->
+  <div class="ai-chat-window" id="ai-chat-window">
+    <div class="ai-chat-header">
+      <div style="display:flex; align-items:center; gap:0.6rem;">
+        <span style="font-size:1.2rem;">🤖</span>
+        <div>
+          <h4 class="font-heading" style="font-size:0.95rem; font-weight:700;">Shreya AI Recruiter Copilot</h4>
+          <span style="font-size:0.72rem; color:var(--accent-emerald); font-family:'JetBrains Mono';">● Active Knowledge Base</span>
+        </div>
+      </div>
+      <button type="button" class="modal-close-btn" id="ai-chat-close" style="width:28px; height:28px; font-size:1.1rem;">✕</button>
+    </div>
+
+    <div class="ai-chat-messages" id="ai-chat-messages">
+      <div class="chat-bubble bubble-ai">
+        Hello! I'm <strong>Shreya's AI Twin</strong>. Ask me anything about her projects (FoodNest, CipherShield, NetSentinel, Titan Ascent), her internships at IBM and Codec, 200+ LeetCode DSA problems, or system design decisions!
+      </div>
+    </div>
+
+    <!-- Quick Prompt Suggestions -->
+    <div class="ai-quick-prompts" id="ai-quick-prompts">
+      <button type="button" class="quick-prompt-chip">Why hire Shreya?</button>
+      <button type="button" class="quick-prompt-chip">Tell me about FoodNest</button>
+      <button type="button" class="quick-prompt-chip">What did she do at IBM?</button>
+      <button type="button" class="quick-prompt-chip">Show LeetCode stats</button>
+    </div>
+
+    <div class="ai-chat-input-bar">
+      <input type="text" id="ai-chat-input" class="ai-chat-input" placeholder="Ask about architecture, skills, experience...">
+      <button type="button" id="ai-chat-send" class="ai-chat-send">Send</button>
+    </div>
+  </div>
+
+  <!-- Hacker Terminal CLI Drawer -->
+  <div class="terminal-drawer" id="terminal-drawer">
+    <div class="terminal-topbar">
+      <div class="terminal-dots">
+        <span class="t-dot t-red"></span>
+        <span class="t-dot t-yellow"></span>
+        <span class="t-dot t-green"></span>
+      </div>
+      <span class="terminal-title">shreya@portfolio:~ (Interactive CLI)</span>
+      <button type="button" class="modal-close-btn terminal-close" style="width:24px; height:24px; font-size:1rem;">✕</button>
+    </div>
+    <div class="terminal-body" id="terminal-body">
+      <div class="terminal-output" id="terminal-output">
+⚡ SHREYA KHADEKAR PORTFOLIO CLI [Version 2.0.0]
+Host: Render Cloud Web Service | Node.js Runtime
+Type "help" to view all available commands. Press Esc or click ✕ to close.
+      </div>
+      <div class="terminal-prompt-line">
+        <span class="t-prompt">shreya@portfolio:~$</span>
+        <input type="text" id="terminal-input" class="t-input" autocomplete="off" spellcheck="false" autofocus>
+      </div>
+    </div>
+  </div>
+
+  <!-- Case Study Deep Dive Modal -->
+  <div class="modal-overlay" id="case-study-modal">
+    <div class="modal-window">
+      <div class="modal-header">
+        <span class="font-heading" style="font-size:1.1rem; font-weight:700; color:var(--accent-cyan);">Project Case Study &amp; Architecture Deep-Dive</span>
+        <button type="button" class="modal-close-btn" id="modal-close">✕</button>
+      </div>
+      <div class="modal-content" id="modal-body-content"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/particles.js"></script>
+  <script src="js/terminal.js"></script>
+  <script src="js/ai-copilot.js"></script>
+  <script src="js/visualizer.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

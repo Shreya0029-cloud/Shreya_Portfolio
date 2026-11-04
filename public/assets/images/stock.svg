@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="spBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1726"/>
+      <stop offset="100%" stop-color="#060A10"/>
+    </linearGradient>
+    <linearGradient id="spGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" rx="16" fill="url(#spBg)" />
+
+  <!-- Top bar -->
+  <rect x="40" y="28" width="720" height="48" rx="10" fill="#152238" stroke="#253D63" stroke-width="1.5"/>
+  <text x="65" y="58" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="17" fill="#FFFFFF">AI STOCK PREDICTOR</text>
+  <rect x="250" y="40" width="130" height="24" rx="6" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="1"/>
+  <text x="315" y="56" font-family="'JetBrains Mono', monospace" font-size="10" fill="#34D399" text-anchor="middle">TIME-SERIES ML</text>
+  
+  <rect x="390" y="40" width="150" height="24" rx="6" fill="#6366F1" fill-opacity="0.15" stroke="#6366F1" stroke-width="1"/>
+  <text x="465" y="56" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A5B4FC" text-anchor="middle">PYTHON • SCIKIT-LEARN</text>
+
+  <!-- Left: Stock Chart & Trend Prediction -->
+  <rect x="40" y="94" width="450" height="320" rx="12" fill="#132035" stroke="#243C61" stroke-width="1.5"/>
+  <text x="65" y="128" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Market Trend &amp; Moving Averages</text>
+  <text x="65" y="148" font-family="'Inter', sans-serif" font-size="12" fill="#88A8CC">Historical Sequence Regression • SMA / RSI Indicators</text>
+
+  <!-- Candlestick & Trend Line -->
+  <path d="M 65 300 L 120 280 L 170 310 L 220 260 L 270 270 L 330 210 L 390 190 L 450 160" fill="none" stroke="url(#spGreen)" stroke-width="3"/>
+  
+  <!-- Forecast Confidence Envelope -->
+  <polygon points="330,210 390,170 450,135 450,185 390,210" fill="#10B981" fill-opacity="0.15"/>
+  <line x1="330" y1="210" x2="450" y2="135" stroke="#34D399" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="330" y1="210" x2="450" y2="185" stroke="#34D399" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <rect x="370" y="110" width="105" height="22" rx="4" fill="#0C1522" stroke="#34D399" stroke-width="1"/>
+  <text x="422" y="125" font-family="'JetBrains Mono', monospace" font-size="9" fill="#34D399" text-anchor="middle">Predicted +14.2%</text>
+
+  <!-- Right: Stats and Technical Summary -->
+  <rect x="510" y="94" width="250" height="150" rx="12" fill="#132035" stroke="#243C61" stroke-width="1.5"/>
+  <text x="530" y="122" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Model Evaluation</text>
+  <text x="530" y="152" font-family="'JetBrains Mono', monospace" font-size="11" fill="#34D399">R² Score: 0.914</text>
+  <text x="530" y="172" font-family="'JetBrains Mono', monospace" font-size="11" fill="#38BDF8">MAE: 1.42 points</text>
+  <text x="530" y="192" font-family="'JetBrains Mono', monospace" font-size="11" fill="#A5B4FC">RMSE: 2.18 points</text>
+
+  <rect x="510" y="260" width="250" height="154" rx="12" fill="#132035" stroke="#243C61" stroke-width="1.5"/>
+  <text x="530" y="288" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Technical Stack</text>
+  <text x="530" y="314" font-family="'JetBrains Mono', monospace" font-size="10" fill="#FBBF24">• Python 3.x</text>
+  <text x="530" y="334" font-family="'JetBrains Mono', monospace" font-size="10" fill="#F472B6">• Scikit-learn &amp; Pandas</text>
+  <text x="530" y="354" font-family="'JetBrains Mono', monospace" font-size="10" fill="#60A5FA">• NumPy &amp; Matplotlib</text>
+  <text x="530" y="374" font-family="'JetBrains Mono', monospace" font-size="10" fill="#34D399">• Jupyter Notebook</text>
+</svg>

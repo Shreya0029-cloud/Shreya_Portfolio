@@ -1,0 +1,291 @@
+[
+  {
+    "id": "foodnest",
+    "title": "FoodNest — Scalable Full-Stack Food Ordering Platform",
+    "category": "fullstack",
+    "categoryLabel": "Full-Stack & Cloud",
+    "featured": true,
+    "year": "2026",
+    "tagline": "Multi-tier RBAC ecosystem with PostgreSQL, live GPS routing, Razorpay, and AI assistant",
+    "image": "assets/images/foodnest.svg",
+    "github": "https://github.com/Shreya0029-cloud/Foodnest-Fullstack",
+    "liveDemo": "https://foodnest-fullstack.onrender.com",
+    "stats": [
+      { "label": "REST APIs", "val": "25+" },
+      { "label": "User Roles", "val": "3 (RBAC)" },
+      { "label": "Payment Verify", "val": "Server HMAC" },
+      { "label": "DB Architecture", "val": "PostgreSQL Auto-Migrate" }
+    ],
+    "tags": ["React", "Node.js", "Express.js", "PostgreSQL", "JWT", "RBAC", "Razorpay", "Cloudinary", "GPS Discovery", "AI Chatbot"],
+    "summary": "Production-grade full-stack food delivery ecosystem with role-based access control for Customers, Vendors, and Admins. Features 25+ REST APIs, automated DB migrations, real-time order tracking, distance-calculated restaurant discovery via GPS, server-side verified Razorpay payments, OTP authentication, and an integrated AI support chatbot.",
+    "architecture": "Client: React (Vite) Single Page Application with dynamic cart and live order status. Backend: Express.js REST API with JWT middleware, bcrypt password hashing, and role guard authorization. Database: PostgreSQL with automated table migration and seed script. Third-party integrations: Razorpay test mode with HMAC-SHA256 signature verification fallback, Cloudinary media CDN, and GPS distance haversine calculations.",
+    "interviewPoints": [
+      "Engineered 3-tier RBAC (Customer, Vendor, Admin) with granular permission guards preventing privilege escalation.",
+      "Implemented server-side HMAC-SHA256 signature verification for Razorpay payment webhooks to thwart client tamper attempts.",
+      "Integrated Haversine GPS sorting on PostgreSQL coordinates to query nearest kitchens within sub-15ms latency.",
+      "Designed resilient fallback gateway so the app functions seamlessly in local sandbox and production cloud environments."
+    ]
+  },
+  {
+    "id": "ciphershield",
+    "title": "CipherShield — AI-Powered Fraud Detection & Fair Decision Verification",
+    "category": "ai",
+    "categoryLabel": "AI / Machine Learning",
+    "featured": true,
+    "year": "2026",
+    "tagline": "Real-time SOC platform with RandomForest ML, SHA-256 hash-chain audit, and simulated ZK proofs",
+    "image": "assets/images/ciphershield.svg",
+    "github": "https://github.com/Shreya0029-cloud/Ciphershield",
+    "liveDemo": "https://ciphershield.onrender.com",
+    "stats": [
+      { "label": "Model Precision", "val": "98.4%" },
+      { "label": "Audit Trail", "val": "SHA-256 Chain" },
+      { "label": "Alert Latency", "val": "< 50ms" },
+      { "label": "Attack Patterns", "val": "5 Simulated" }
+    ],
+    "tags": ["Python", "FastAPI", "scikit-learn", "React", "Node.js", "PostgreSQL", "Socket.IO", "SHA-256", "Zero-Knowledge"],
+    "summary": "Fintech security and fraud detection platform engineered to operate like a real Security Operations Center (SOC). Leverages a trained RandomForestClassifier for real-time transaction anomaly detection, coupled with a tamper-evident SHA-256 single-writer hash-chain audit trail and a zero-knowledge proof verification pipeline. Features live Socket.IO alerts and an automated attack simulator covering impossible travel, rapid velocity, and VPN proxy spoofery.",
+    "architecture": "Hybrid dual-service backend: Python FastAPI microservice serving Scikit-Learn fraud model inference; Node.js/Express orchestration backend with PostgreSQL database and Socket.IO WebSocket broadcaster; React frontend with live SOC radar, Recharts analytics, and case management dashboard.",
+    "interviewPoints": [
+      "Trained and serialized RandomForestClassifier with balanced class weighting to maximize precision against extreme fraud imbalance.",
+      "Constructed a cryptographic SHA-256 hash-chain in PostgreSQL where every audit row embeds the cryptographic digest of its ancestor.",
+      "Engineered real-time impossible travel detection calculating geographical velocity between sequential card transactions.",
+      "Demonstrated transparent engineering trade-offs between simulated Zero-Knowledge SnarkJS proofs and production elliptic-curve circuits."
+    ]
+  },
+  {
+    "id": "netsentinel",
+    "title": "NetSentinel AI Pro — AI Network Intrusion Detection System (NIDS)",
+    "category": "security",
+    "categoryLabel": "Cybersecurity & Networks",
+    "featured": true,
+    "year": "2026",
+    "tagline": "PCAP & real-time traffic analysis combining Isolation Forest + RF with interactive security lab",
+    "image": "assets/images/netsentinel.svg",
+    "github": "https://github.com/Shreya0029-cloud/AI-NIDS-NetSentinel",
+    "liveDemo": "https://netsentinel-ai-pro-yp0k.onrender.com/",
+    "stats": [
+      { "label": "F1-Score", "val": "99.1%" },
+      { "label": "Throughput", "val": "10k+ pkt/s" },
+      { "label": "Detection", "val": "Rule + ML Hybrid" },
+      { "label": "Lab Modules", "val": "OSI, Dijkstra, TCP" }
+    ],
+    "tags": ["Python", "Scapy", "Isolation Forest", "Random Forest", "FastAPI", "React", "Docker", "Render", "Networking Lab"],
+    "summary": "End-to-end AI-powered Network Intrusion Detection System (NIDS) converting raw network packets and PCAP captures into actionable threat intelligence. Combines Scapy packet decoding, flow generation, 9 engineered TCP/IP features, Isolation Forest anomaly detection, and signature rules to detect SYN floods, DoS vectors, and port scans with an interactive security dashboard and educational networking lab.",
+    "architecture": "Engineered with a high-throughput Scapy PCAP parsing engine generating bi-directional network flows; dual-model ML detection pipeline (Isolation Forest for unsupervised zero-day anomaly detection + Random Forest for supervised attack classification); FastAPI backend with SQLite/Postgres storage; React dashboard with interactive packet stream inspector and virtual computer networking laboratory.",
+    "interviewPoints": [
+      "Engineered 9 high-signal flow features from raw PCAP packets (duration, byte rate, packet count, SYN/ACK ratios, inter-arrival time).",
+      "Built hybrid detection pipeline: deterministic rules capture known signatures instantly while Isolation Forest catches novel zero-day anomalies.",
+      "Containerized complete stack with Docker multi-stage builds and automated deployment to Render cloud.",
+      "Built interactive educational networking laboratory demonstrating OSI 7 layers, Dijkstra shortest path routing, and TCP 3-way handshakes."
+    ]
+  },
+  {
+    "id": "truthguard",
+    "title": "TruthGuard — Multi-Agent Multimodal AI Deception & Deepfake Detection",
+    "category": "ai",
+    "categoryLabel": "AI / Machine Learning",
+    "featured": true,
+    "year": "2026",
+    "tagline": "Multi-agent LLM & Computer Vision system for real-time deepfake, misinformation, and scam detection",
+    "image": "assets/images/truthguard.svg",
+    "github": "https://github.com/Shreya0029-cloud/TruthGuard",
+    "liveDemo": "https://github.com/Shreya0029-cloud/TruthGuard",
+    "stats": [
+      { "label": "Specialized Agents", "val": "4 Agents" },
+      { "label": "Modalities", "val": "Text, Image, Audio" },
+      { "label": "RAG Engine", "val": "ChromaDB" },
+      { "label": "Forensic Dial", "val": "Cross-Modal CoT" }
+    ],
+    "tags": ["Multi-Agent AI", "LLMs", "Computer Vision", "ChromaDB", "Python", "Deepfake Detection", "Prompt Engineering", "RAG"],
+    "summary": "Distributed multi-agent AI system for detecting multimodal digital deception, disinformation, synthetic deepfakes, and social-engineering scam vectors. Orchestrates specialized agents (Text Claim Verifier, Vision Deepfake Analyzer, Evidence Retrieval Agent, Source Credibility Scorer) to conduct cross-modal reasoning and generate transparent forensic reports.",
+    "architecture": "Hierarchical multi-agent framework: Orchestrator agent splits incoming multimedia into modal streams; Vision agent performs CNN/transformer artifact analysis on facial features; Text agent conducts claim extraction and LLM semantic cross-examination; RAG agent queries ChromaDB vector embeddings against authenticated knowledge bases; Synthesis agent compiles weighted forensic veracity scores.",
+    "interviewPoints": [
+      "Overcame single-modality detection limits by designing a cross-modal verification loop that correlates image metadata with textual claims.",
+      "Implemented ChromaDB vector similarity search to ground claim verification in authoritative source corpora, preventing hallucinated evaluations.",
+      "Designed explainable AI forensic reports that highlight specific pixel artifacts, text sentiment inconsistencies, and source domain risks."
+    ]
+  },
+  {
+    "id": "interfog",
+    "title": "INTERFOG — Energy-Aware Fog Computing Scheduler",
+    "category": "ai",
+    "categoryLabel": "AI / Machine Learning",
+    "featured": true,
+    "year": "2026",
+    "tagline": "Probability-of-completion task scheduling for edge/fog nodes powered by harvested energy",
+    "image": "assets/images/interfog-dashboard.png",
+    "github": "https://github.com/Shreya0029-cloud/INTERFOG",
+    "liveDemo": "https://interfog.onrender.com/",
+    "stats": [
+      { "label": "Live Status", "val": "Deployed on Render" },
+      { "label": "Algorithm", "val": "Survival Analysis" },
+      { "label": "Telemetry", "val": "Real-Time Dashboard" },
+      { "label": "Energy Types", "val": "Solar, Kinetic, RF" }
+    ],
+    "tags": ["Python", "Survival Analysis", "Energy Harvesting", "Probabilistic Calibration", "React", "Render", "Edge Computing"],
+    "summary": "Novel edge/fog computing scheduling system designed for nodes powered by harvested energy (solar, vibration, RF). Uses survival analysis and probabilistic calibration to answer: 'Will the task finish before the battery runs dry?'. Evaluates P(Completion | Harvest Rate, Battery, Load) and dynamically schedules or offloads tasks to prevent node depletion.",
+    "architecture": "Energy-harvesting stochastic model coupled with dynamic execution runtime. Telemetry ingestion simulates intermittent ambient power inputs while a calibrated survival probability estimator decides whether to execute locally, throttle frequency, or offload to neighboring fog clusters.",
+    "interviewPoints": [
+      "Formulated mathematical objective: P(Task Completion | Battery, Harvest Rate, Workload, Deadline).",
+      "Engineered adaptive threshold heuristics to eliminate task termination mid-execution due to battery exhaustion.",
+      "Constructed live interactive web dashboard deployed on Render visualizing real-time battery charge, harvest cycles, and task queues."
+    ]
+  },
+  {
+    "id": "titan-ascent",
+    "title": "Titan Ascent: The Living Mountain — 3D Browser Adventure",
+    "category": "gamedev",
+    "categoryLabel": "Game Dev & 3D Web",
+    "featured": true,
+    "year": "2026",
+    "tagline": "Immersive Three.js browser game with breathing terrain physics, grappling hooks, and 14 quests",
+    "image": "assets/images/titan-cover.png",
+    "github": "https://github.com/Shreya0029-cloud/Titan-Ascent-The-Living-Mountain",
+    "liveDemo": "https://github.com/Shreya0029-cloud/Titan-Ascent-The-Living-Mountain",
+    "stats": [
+      { "label": "Engine", "val": "100% Three.js" },
+      { "label": "Quests", "val": "14 Interactive" },
+      { "label": "Biomes", "val": "6 Ecological Zones" },
+      { "label": "Endings", "val": "3 Narrative Paths" }
+    ],
+    "tags": ["Three.js", "JavaScript", "Vite", "WebGL", "Procedural Generation", "Web Audio API", "Physics"],
+    "summary": "Immersive 3D browser game where the player climbs the back of a colossal, breathing titan under celestial planets. Features dynamic terrain deformation linked to the titan's breath cycles ('Perfect breath' leaps), stamina/grip physics, rope-hook grappling mechanics, 6 distinct ecological biomes, 4 tribes with 14 quests and 30 branching dialogue paths, and 3 distinct narrative endings.",
+    "architecture": "Engineered with zero commercial game engine — entirely hand-written vanilla JavaScript and Three.js shaders. Custom heightmap deformation algorithm updates vertex geometry with sinusoidal breath rhythms; procedural audio generator utilizes Web Audio API; modular quest state machine drives branching dialogue.",
+    "interviewPoints": [
+      "Implemented real-time vertex displacement in WebGL meshes synchronized with breathing audio loops.",
+      "Built complete climbing and raycasted grappling-hook physics system with stamina management and friction calculations.",
+      "Created 30-branch dialogue state machine with persistent player karma influencing 3 distinct cinematic endings."
+    ]
+  },
+  {
+    "id": "cloudmind",
+    "title": "CloudMind — AI-Powered Cloud Infrastructure & ML Autoscaling",
+    "category": "fullstack",
+    "categoryLabel": "Full-Stack & Cloud",
+    "featured": true,
+    "year": "2026",
+    "tagline": "Predictive cloud resource orchestration platform with FastAPI, JWT/RBAC, and ML forecasting",
+    "image": "assets/images/cloudmind.svg",
+    "github": "https://github.com/Shreya0029-cloud/CloudMind",
+    "liveDemo": "https://github.com/Shreya0029-cloud/CloudMind",
+    "stats": [
+      { "label": "Resource Tiers", "val": "6 Hierarchical" },
+      { "label": "Forecasting", "val": "XGBoost + LSTM" },
+      { "label": "Auth Security", "val": "JWT + RBAC" },
+      { "label": "Infra Ready", "val": "Docker & K8s" }
+    ],
+    "tags": ["FastAPI", "Python", "PostgreSQL", "Docker", "Kubernetes", "Terraform", "Kafka", "XGBoost", "LSTM"],
+    "summary": "Cloud orchestration and predictive autoscaling system designed for high-density microservices. Implements resource management across 6 tiers (users, projects, applications, environments, clusters, deployments) secured with JWT and RBAC. Employs XGBoost and LSTM forecasting models to predict traffic spikes and autonomously preempt autoscaling delays.",
+    "architecture": "FastAPI core API microservice managing relational entities in PostgreSQL; Kafka event bus streaming metrics; ML forecasting service with XGBoost for CPU/memory estimation and LSTM sequence modeling for seasonal traffic spikes; Dockerized container deployments with Kubernetes manifests and Terraform IaC.",
+    "interviewPoints": [
+      "Designed clean 6-level relational resource hierarchy with strict foreign key constraints and multi-tenant isolation.",
+      "Formulated proactive autoscaling algorithm to solve traditional reactive autoscaler lag (cold-start mitigation).",
+      "Structured framework-agnostic REST API design enabling clean migration or interoperability with Spring Boot services."
+    ]
+  },
+  {
+    "id": "browser-risk",
+    "title": "Browser Extension Risk Auditor — Manifest V3 Security Platform",
+    "category": "security",
+    "categoryLabel": "Cybersecurity & Networks",
+    "featured": true,
+    "year": "2026",
+    "tagline": "Intelligent security and permission risk evaluation platform with live Chrome extension inspector",
+    "image": "assets/images/browser-risk.svg",
+    "github": "https://github.com/Shreya0029-cloud/Browser-Extension-Risk-Auditor",
+    "liveDemo": "https://browser-extension-risk-auditor.onrender.com/",
+    "stats": [
+      { "label": "Platform", "val": "Chrome MV3" },
+      { "label": "Deployment", "val": "Live on Render" },
+      { "label": "Full Stack", "val": "React + Express + PG" },
+      { "label": "Risk Engine", "val": "Deterministic Scorer" }
+    ],
+    "tags": ["Chrome Extension", "Manifest V3", "React", "Node.js", "Express", "PostgreSQL", "Cybersecurity"],
+    "summary": "Security assessment platform that audits installed browser extensions, inspects declarative permissions, maps CSP policies, identifies high-risk APIs (webRequest, cookies, nativeMessaging), and computes deterministic threat severity scores with actionable remediation guides.",
+    "architecture": "Chrome Extension frontend built on Manifest V3 declarative APIs; Node.js/Express backend service running algorithmic risk scoring matrix; PostgreSQL database logging extension telemetry; React dashboard visualizing permission graphs and security recommendations.",
+    "interviewPoints": [
+      "Engineered heuristic risk scoring model penalizing toxic permission combinations (e.g., broad host permissions combined with background script network exfiltration).",
+      "Audited Chrome Web Store Manifest V3 compliance standards including declarativeNetRequest and service worker lifecycles.",
+      "Deployed full-stack dashboard on Render offering one-click security audits for non-technical users."
+    ]
+  },
+  {
+    "id": "paradox-game",
+    "title": "PARADOX — 60 Seconds Ahead: Sci-Fi Time-Loop Browser Game",
+    "category": "gamedev",
+    "categoryLabel": "Game Dev & 3D Web",
+    "featured": false,
+    "year": "2026",
+    "tagline": "Cinematic neon browser game with 60-second deterministic foresight and temporal replays",
+    "image": "assets/images/paradox-ref1.png",
+    "github": "https://github.com/Shreya0029-cloud/Paradox_Game",
+    "liveDemo": "https://github.com/Shreya0029-cloud/Paradox_Game",
+    "stats": [
+      { "label": "Timeline", "val": "60s Ahead" },
+      { "label": "UI Design", "val": "Cyberpunk Neon" },
+      { "label": "Backend", "val": "Node / Express API" },
+      { "label": "Replay Engine", "val": "Canvas State Recorder" }
+    ],
+    "tags": ["HTML5 Canvas", "JavaScript", "Node.js", "Express", "Web Audio API", "Game Physics"],
+    "summary": "Neon sci-fi browser game where the player perceives 60 seconds into the future and must maneuver to break a deterministic death loop. Features deterministic timeline visualization, reactive enemy AI, foresight pulse mechanics, paradox energy meter, instant temporal replays, and persistent high-score backend.",
+    "architecture": "Canvas 2D render loop running at 60 FPS; state history buffer recording player trajectory and simulating ahead timeline predictions; Express.js leaderboard backend handling persistent run scores.",
+    "interviewPoints": [
+      "Engineered deterministic prediction engine that renders dual timelines simultaneously on canvas without frame drops.",
+      "Built cinematic death replay system serializing input coordinates into instant flashback playback.",
+      "Designed full cyberpunk UI/UX with responsive mobile touch controls and keyboard bindings."
+    ]
+  },
+  {
+    "id": "watsonx-resume",
+    "title": "Generative AI Career Copilot — Powered by IBM watsonx",
+    "category": "ai",
+    "categoryLabel": "AI / Machine Learning",
+    "featured": false,
+    "year": "2025",
+    "tagline": "Enterprise GenAI solution using IBM watsonx foundation models for ATS-optimized resume synthesis",
+    "image": "assets/images/watsonx.svg",
+    "github": "https://github.com/Shreya0029-cloud/Generative-Ai-Resume-and-Cover-Letter-Writer",
+    "liveDemo": "https://github.com/Shreya0029-cloud/Generative-Ai-Resume-and-Cover-Letter-Writer",
+    "stats": [
+      { "label": "Platform", "val": "IBM watsonx" },
+      { "label": "Efficiency", "val": "80% Time Saved" },
+      { "label": "Output", "val": "Resume & Cover Letter" },
+      { "label": "Prompt Style", "val": "Few-Shot Chaining" }
+    ],
+    "tags": ["IBM watsonx", "Generative AI", "LLMs", "Prompt Engineering", "Responsible AI", "JavaScript"],
+    "summary": "Enterprise generative AI tool engineered during IBM internship leveraging IBM watsonx foundation models. Dynamically synthesizes ATS-optimized resumes and contextual cover letters tailored to target job descriptions, utilizing zero-shot and few-shot prompt chaining.",
+    "architecture": "Client web interface connected to IBM watsonx AI runtime; structured prompt engineering pipeline embedding job description keywords, candidate skill vectors, and strict anti-hallucination constraints.",
+    "interviewPoints": [
+      "Applied enterprise Responsible AI principles and prompt governance learned during IBM watsonx certification.",
+      "Formulated prompt chaining pipeline separating content extraction, keyword alignment, and tone modulation.",
+      "Reduced resume and cover letter drafting turnaround by 80% while preserving ATS formatting compliance."
+    ]
+  },
+  {
+    "id": "stock-predictor",
+    "title": "Stock Price Predictor — Financial Time-Series ML Model",
+    "category": "ai",
+    "categoryLabel": "AI / Machine Learning",
+    "featured": false,
+    "year": "2025",
+    "tagline": "Quantitative machine learning model for historical stock trend forecasting and technical indicators",
+    "image": "assets/images/stock.svg",
+    "github": "https://github.com/Shreya0029-cloud/Stock-Price-Predictor",
+    "liveDemo": "https://github.com/Shreya0029-cloud/Stock-Price-Predictor",
+    "stats": [
+      { "label": "R² Accuracy", "val": "0.914" },
+      { "label": "Indicators", "val": "SMA, EMA, RSI" },
+      { "label": "Language", "val": "Python 3.x" },
+      { "label": "Toolkit", "val": "Scikit-Learn, Pandas" }
+    ],
+    "tags": ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Financial ML"],
+    "summary": "AI financial forecasting project utilizing time-series machine learning algorithms to analyze historical stock patterns, detect market inflection points, and assist quantitative decision-making.",
+    "architecture": "Jupyter Notebook & Python workflow incorporating Yahoo Finance data extraction, missing value imputation, rolling window feature extraction (moving averages, momentum indicators), and regression model evaluation.",
+    "interviewPoints": [
+      "Engineered lag features and moving average indicators to capture non-linear financial market dependencies.",
+      "Conducted rigorous train-test splitting avoiding look-ahead bias in financial backtesting.",
+      "Visualized prediction confidence intervals using Matplotlib."
+    ]
+  }
+]

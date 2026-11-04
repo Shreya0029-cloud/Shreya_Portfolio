@@ -1,0 +1,168 @@
+{
+  "name": "Shreya Rajendra Khadekar",
+  "preferredName": "Shreya Khadekar",
+  "tagline": "Full-Stack Engineer • AI/ML & Generative AI Specialist • System Architect",
+  "email": "shreyakhadekar@gmail.com",
+  "phone": "+91 9637266237",
+  "location": "Amravati, Maharashtra / Vellore, Tamil Nadu, India",
+  "college": "Vellore Institute of Technology (VIT Vellore)",
+  "degree": "B.Tech. in Computer Science & Engineering",
+  "graduationYear": "2027",
+  "cgpa": "8.3",
+  "resumeDriveUrl": "https://drive.google.com/file/d/11pYzan01sypPxp_8Ir9HEPBTGqRMr3Na/view?usp=sharing",
+  "profiles": {
+    "linkedin": "https://linkedin.com/in/shreya-khadekar-b5142328b",
+    "github": "https://github.com/Shreya0029-cloud",
+    "leetcode": "https://leetcode.com/u/vUXivDGDHV/"
+  },
+  "summary": "Computer Science Engineering undergraduate at VIT Vellore (2027) with an 8.3 CGPA, specializing in Full Stack Engineering, Scalable Backend Architectures, and Applied Generative AI. Proven track record building production-grade web platforms, microservices, and AI/ML pipelines with React, Node.js, Express, Python, FastAPI, PostgreSQL, MongoDB, Docker, and Three.js. 200+ LeetCode DSA problems solved with enterprise internship experience at IBM watsonx and Codec Technologies.",
+  "availability": {
+    "status": "Available",
+    "roles": ["Full-Stack Software Engineer", "Backend Developer", "AI/ML Engineer", "Generative AI Developer"],
+    "badge": "🟢 Available for Full-Time SWE / AI Roles & Internships"
+  },
+  "metrics": {
+    "projectsCount": "10+",
+    "leetcodeCount": "200+",
+    "internshipsCount": "2",
+    "certificationsCount": "4",
+    "cgpa": "8.3",
+    "linesOfCode": "50,000+"
+  },
+  "experience": [
+    {
+      "role": "Full Stack Developer Intern",
+      "company": "Codec Technologies Pvt. Ltd.",
+      "period": "03/2026 – 06/2026",
+      "location": "Remote",
+      "badge": "Full Stack Engineering",
+      "bullets": [
+        "Architected and deployed 8+ RESTful APIs across 3–4 MongoDB data models using Node.js, Express.js, and React.js, standardizing CRUD workflows.",
+        "Implemented JWT authentication with Role-Based Access Control (RBAC), securing sensitive backend endpoints and preventing privilege escalation.",
+        "Leveraged Generative AI tools and structured prompt engineering to streamline unit testing and debugging, slashing bug iteration cycle time by 15–20%.",
+        "Ensured rigorous code quality through Git/GitHub feature-branch workflows, automated linting, and data sanitization."
+      ],
+      "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "RBAC", "Git", "Generative AI"]
+    },
+    {
+      "role": "Generative AI Intern",
+      "company": "IBM",
+      "period": "04/2025 – 06/2025",
+      "location": "Remote / Enterprise AI",
+      "badge": "Generative AI & Foundation Models",
+      "bullets": [
+        "Earned the 'GEN AI Using IBM watsonx' certification while gaining practical enterprise experience with Foundation Models, LLMs, and prompt engineering pipelines.",
+        "Designed, tested, and iterated on specialized prompt architectures for real-world enterprise use cases, enhancing response fidelity and contextual grounding.",
+        "Implemented Responsible AI principles, model evaluation frameworks, and guardrails for ethical, hallucination-resistant generative AI workflows.",
+        "Collaborated on practical enterprise AI applications integrating watsonx models into automated business solutions."
+      ],
+      "technologies": ["IBM watsonx", "Foundation Models", "Prompt Engineering", "Responsible AI", "Model Evaluation", "Python"]
+    },
+    {
+      "role": "Design Head (Leadership)",
+      "company": "Geospatial Club, VIT",
+      "period": "2024 – Present",
+      "location": "Vellore, India",
+      "badge": "Product Design & Team Leadership",
+      "bullets": [
+        "Leading a 15-member design and UI/UX team orchestrating visual identity, user research, and interactive assets for university-wide geospatial technology events.",
+        "Bridging product design and software engineering to maintain consistent UI components, design systems, and responsive usability standards.",
+        "Mentored junior team members in Figma, typography, color theory, and modern web ergonomics."
+      ],
+      "technologies": ["UI/UX Design", "Product Design", "Figma", "Design Systems", "Team Leadership (15)"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech. in Computer Science and Engineering",
+      "institution": "Vellore Institute of Technology (VIT)",
+      "period": "2023 – 2027",
+      "location": "Vellore, Tamil Nadu",
+      "score": "CGPA: 8.3 / 10.0",
+      "details": "Core Coursework: Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, Machine Learning, Cloud Computing."
+    },
+    {
+      "degree": "Higher Secondary (11th & 12th) — Science",
+      "institution": "Rural College",
+      "period": "2020 – 2022",
+      "location": "Amravati, Maharashtra",
+      "score": "Percentage: 84.83%",
+      "details": "Concentration in Physics, Chemistry, Mathematics, and Computer Science."
+    },
+    {
+      "degree": "Secondary School (10th Standard)",
+      "institution": "Holy Cross High School",
+      "period": "2019 – 2020",
+      "location": "Amravati, Maharashtra",
+      "score": "Percentage: 100% (Perfect Score)",
+      "details": "Achieved a flawless 100% aggregate score; awarded academic excellence distinction."
+    }
+  ],
+  "achievements": [
+    {
+      "title": "5th Place — GDSC Hackathon 2025",
+      "org": "Google Developer Student Clubs",
+      "year": "2025",
+      "desc": "Built an innovative AI-driven software solution under strict 36-hour hackathon constraints, placing 5th among hundreds of competing engineering teams."
+    },
+    {
+      "title": "200+ LeetCode DSA Problems Solved",
+      "org": "LeetCode Competitive Programming",
+      "year": "2024 – Present",
+      "desc": "Active algorithmic problem solver on LeetCode (profile: vUXivDGDHV) covering Dynamic Programming, Binary Trees, Graphs, Two Pointers, and Greedy Algorithms."
+    },
+    {
+      "title": "Smart India Hackathon (SIH) 2025 Participant",
+      "org": "Ministry of Education, Govt. of India",
+      "year": "2025",
+      "desc": "Selected for national-level innovation hackathon solving critical public-sector technological challenges."
+    },
+    {
+      "title": "100% Flawless Academic Distinction (10th)",
+      "org": "Holy Cross High School",
+      "year": "2020",
+      "desc": "Secured 100% perfect marks in secondary school board examinations."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Cloud Solutions Architect Professional",
+      "issuer": "Amazon Web Services (AWS)",
+      "badge": "Cloud Architecture",
+      "skills": ["EC2", "S3", "Lambda", "IAM", "VPC", "CloudWatch", "Microservices"]
+    },
+    {
+      "name": "Google Data Analytics Professional Certificate",
+      "issuer": "Google",
+      "badge": "Data & Analytics",
+      "skills": ["Data Analysis", "SQL", "Tableau", "R", "Spreadsheets", "Data Integrity"]
+    },
+    {
+      "name": "Microsoft AI & ML Certificate",
+      "issuer": "Microsoft",
+      "badge": "Artificial Intelligence",
+      "skills": ["Machine Learning", "Neural Networks", "Azure Cognitive Services", "Model Training"]
+    },
+    {
+      "name": "GEN AI Using IBM watsonx",
+      "issuer": "IBM SkillsBuild",
+      "badge": "Generative AI",
+      "skills": ["IBM watsonx", "Foundation Models", "Prompt Engineering", "Responsible AI"]
+    }
+  ],
+  "leetcode": {
+    "profileUrl": "https://leetcode.com/u/vUXivDGDHV/",
+    "solvedTotal": "200+",
+    "easy": "85+",
+    "medium": "105+",
+    "hard": "15+",
+    "topCategories": [
+      { "name": "Arrays & Hashing", "count": "45+" },
+      { "name": "Two Pointers & Sliding Window", "count": "30+" },
+      { "name": "Trees & Binary Search Trees", "count": "35+" },
+      { "name": "Dynamic Programming", "count": "28+" },
+      { "name": "Graphs & BFS/DFS", "count": "25+" },
+      { "name": "Linked Lists & Stacks", "count": "22+" }
+    ]
+  }
+}
