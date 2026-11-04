@@ -8,14 +8,14 @@
   "college": "Vellore Institute of Technology (VIT Vellore)",
   "degree": "B.Tech. in Computer Science & Engineering",
   "graduationYear": "2027",
-  "cgpa": "8.3",
+  "cgpa": "8.56",
   "resumeDriveUrl": "https://drive.google.com/file/d/11pYzan01sypPxp_8Ir9HEPBTGqRMr3Na/view?usp=sharing",
   "profiles": {
     "linkedin": "https://linkedin.com/in/shreya-khadekar-b5142328b",
     "github": "https://github.com/Shreya0029-cloud",
     "leetcode": "https://leetcode.com/u/vUXivDGDHV/"
   },
-  "summary": "Computer Science Engineering undergraduate at VIT Vellore (2027) with an 8.3 CGPA, specializing in Full Stack Engineering, Scalable Backend Architectures, and Applied Generative AI. Proven track record building production-grade web platforms, microservices, and AI/ML pipelines with React, Node.js, Express, Python, FastAPI, PostgreSQL, MongoDB, Docker, and Three.js. 200+ LeetCode DSA problems solved with enterprise internship experience at IBM watsonx and Codec Technologies.",
+  "summary": "Computer Science Engineering undergraduate at VIT Vellore (2027) with an 8.56 CGPA, specializing in Full Stack Engineering, Scalable Backend Architectures, and Applied Generative AI. Proven track record building production-grade web platforms, microservices, and AI/ML pipelines with React, Node.js, Express, Python, FastAPI, PostgreSQL, MongoDB, Docker, and Three.js. 200+ LeetCode DSA problems solved with enterprise internship experience at IBM watsonx and Codec Technologies.",
   "availability": {
     "status": "Available",
     "roles": ["Full-Stack Software Engineer", "Backend Developer", "AI/ML Engineer", "Generative AI Developer"],
@@ -23,10 +23,10 @@
   },
   "metrics": {
     "projectsCount": "10+",
-    "leetcodeCount": "200+",
+    "leetcodeCount": "1000+",
     "internshipsCount": "2",
-    "certificationsCount": "4",
-    "cgpa": "8.3",
+    "certificationsCount": "8+",
+    "cgpa": "8.56",
     "linesOfCode": "50,000+"
   },
   "experience": [
@@ -78,7 +78,7 @@
       "institution": "Vellore Institute of Technology (VIT)",
       "period": "2023 – 2027",
       "location": "Vellore, Tamil Nadu",
-      "score": "CGPA: 8.3 / 10.0",
+      "score": "CGPA: 8.56 / 10.0",
       "details": "Core Coursework: Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, Machine Learning, Cloud Computing."
     },
     {
@@ -86,7 +86,7 @@
       "institution": "Rural College",
       "period": "2020 – 2022",
       "location": "Amravati, Maharashtra",
-      "score": "Percentage: 84.83%",
+      "score": "Percentage: 85%",
       "details": "Concentration in Physics, Chemistry, Mathematics, and Computer Science."
     },
     {
@@ -106,7 +106,7 @@
       "desc": "Built an innovative AI-driven software solution under strict 36-hour hackathon constraints, placing 5th among hundreds of competing engineering teams."
     },
     {
-      "title": "200+ LeetCode DSA Problems Solved",
+      "title": "1000+ LeetCode DSA Problems Solved",
       "org": "LeetCode Competitive Programming",
       "year": "2024 – Present",
       "desc": "Active algorithmic problem solver on LeetCode (profile: vUXivDGDHV) covering Dynamic Programming, Binary Trees, Graphs, Two Pointers, and Greedy Algorithms."
@@ -152,17 +152,17 @@
   ],
   "leetcode": {
     "profileUrl": "https://leetcode.com/u/vUXivDGDHV/",
-    "solvedTotal": "200+",
-    "easy": "85+",
-    "medium": "105+",
-    "hard": "15+",
+    "solvedTotal": "1000+",
+    "easy": "270+",
+    "medium": "530+",
+    "hard": "201+",
     "topCategories": [
-      { "name": "Arrays & Hashing", "count": "45+" },
-      { "name": "Two Pointers & Sliding Window", "count": "30+" },
+      { "name": "Arrays & Hashing", "count": "509+" },
+      { "name": "Two Pointers & Sliding Window", "count": "78+" },
       { "name": "Trees & Binary Search Trees", "count": "35+" },
-      { "name": "Dynamic Programming", "count": "28+" },
-      { "name": "Graphs & BFS/DFS", "count": "25+" },
-      { "name": "Linked Lists & Stacks", "count": "22+" }
+      { "name": "Dynamic Programming", "count": "185+" },
+      { "name": "Graphs & BFS/DFS", "count": "39+" },
+      { "name": "Linked Lists & Stacks", "count": "80+" }
     ]
   }
 }
