@@ -127,7 +127,7 @@ app.post('/api/chat', (req, res) => {
     reply = "Here's why Shreya is an exceptional hire for Full-Stack, Backend, or AI/ML roles:\n\n" +
       "1. **Production-Ready Engineering**: She has engineered and deployed 10+ end-to-end applications (e.g. FoodNest with 25+ REST APIs, CipherShield SOC, NetSentinel AI Pro NIDS on Render).\n" +
       "2. **Dual-Domain Fluency**: Exceptional bridge between scalable backend/distributed systems (PostgreSQL, FastAPI, Node, Docker, Kafka) and applied AI/ML (RandomForest, Isolation Forest, watsonx, LLMs, RAG with ChromaDB).\n" +
-      "3. **Algorithmic Discipline**: 200+ LeetCode problems solved with deep mastery in DP, Trees, and Graph algorithms.\n" +
+      "3. **Algorithmic Discipline**: 1000+ LeetCode problems solved with deep mastery in DP, Trees, and Graph algorithms.\n" +
       "4. **Enterprise Experience**: Successfully completed high-impact internships at Codec Technologies (Full-Stack) and IBM (watsonx Generative AI).\n" +
       "5. **Leadership & Design**: Serves as Design Head for the Geospatial Club leading 15 engineers and designers.";
     relatedLinks = [
@@ -177,7 +177,7 @@ app.post('/api/chat', (req, res) => {
     ];
     suggestedPrompts = ["What are her core skills?", "Tell me about education", "How to contact Shreya?"];
   } else if (q.includes('leetcode') || q.includes('dsa') || q.includes('coding') || q.includes('algorithms')) {
-    reply = "Shreya has solved **200+ Data Structures & Algorithms problems on LeetCode** (Profile: `vUXivDGDHV`).\n\n" +
+    reply = "Shreya has solved **1000+ Data Structures & Algorithms problems on LeetCode** (Profile: `vUXivDGDHV`).\n\n" +
       "• **Breakdown**: 85+ Easy, 105+ Medium, 15+ Hard.\n" +
       "• **Core Focus**: Dynamic Programming, Trees & BSTs, Graph Traversals (BFS/DFS, Dijkstra), Two Pointers, Sliding Window, and Hash Maps.\n" +
       "• Also achieved 5th Place in GDSC Hackathon 2025 and participated in Smart India Hackathon (SIH) 2025.";
@@ -186,8 +186,8 @@ app.post('/api/chat', (req, res) => {
     ];
     suggestedPrompts = ["What are her programming languages?", "Tell me about projects", "Why hire Shreya?"];
   } else if (q.includes('education') || q.includes('vit') || q.includes('cgpa') || q.includes('college')) {
-    reply = "Shreya is pursuing her **B.Tech. in Computer Science and Engineering at Vellore Institute of Technology (VIT Vellore)** (2023 – 2027) with an **8.3 CGPA**.\n\n" +
-      "• **Prior Academic Record**: 84.83% in Higher Secondary (11th & 12th Science) and a **flawless 100% aggregate score** in 10th Standard at Holy Cross High School.\n" +
+    reply = "Shreya is pursuing her **B.Tech. in Computer Science and Engineering at Vellore Institute of Technology (VIT Vellore)** (2023 – 2027) with an **8.56 CGPA**.\n\n" +
+      "• **Prior Academic Record**: 85% in Higher Secondary (11th & 12th Science) and a **flawless 100% aggregate score** in 10th Standard at Holy Cross High School.\n" +
       "• **Leadership**: Design Head of the Geospatial Club leading a 15-member team.";
     suggestedPrompts = ["What certifications does she hold?", "View all projects", "Get resume link"];
   } else if (q.includes('contact') || q.includes('email') || q.includes('phone') || q.includes('reach')) {
@@ -203,8 +203,8 @@ app.post('/api/chat', (req, res) => {
     ];
     suggestedPrompts = ["Why hire Shreya?", "Tell me about FoodNest", "Download Resume"];
   } else {
-    reply = `Thanks for asking about "${query}"! Shreya Khadekar is a CSE undergraduate at VIT Vellore (CGPA 8.3) specializing in Full-Stack Web Development, Scalable Backends, and Applied AI/ML.\n\n` +
-      `She has built 10+ projects including **FoodNest** (Full-Stack Food Platform), **CipherShield** (AI Fraud Detection SOC), **NetSentinel AI Pro** (AI NIDS), **TruthGuard** (Multi-Agent Deception Detection), and **Titan Ascent** (3D WebGL game). She has solved 200+ LeetCode problems and completed internships at Codec Technologies and IBM.`;
+    reply = `Thanks for asking about "${query}"! Shreya Khadekar is a CSE undergraduate at VIT Vellore (CGPA 8.56) specializing in Full-Stack Web Development, Scalable Backends, and Applied AI/ML.\n\n` +
+      `She has built 10+ projects including **FoodNest** (Full-Stack Food Platform), **CipherShield** (AI Fraud Detection SOC), **NetSentinel AI Pro** (AI NIDS), **TruthGuard** (Multi-Agent Deception Detection), and **Titan Ascent** (3D WebGL game). She has solved 1000+ LeetCode problems and completed internships at Codec Technologies and IBM.`;
     suggestedPrompts = ["Why hire Shreya?", "Tell me about FoodNest", "What ML models has she trained?", "Show LeetCode stats"];
   }
 
