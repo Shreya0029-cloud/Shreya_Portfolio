@@ -8,14 +8,14 @@
   "college": "Vellore Institute of Technology (VIT Vellore)",
   "degree": "B.Tech. in Computer Science & Engineering",
   "graduationYear": "2027",
-  "cgpa": "8.56",
+  "cgpa": "8.3",
   "resumeDriveUrl": "https://drive.google.com/file/d/1Ein3ilLrfKDfm1ikYE896iA8ZQUcy_oY/view?usp=sharing",
   "profiles": {
     "linkedin": "https://linkedin.com/in/shreya-khadekar-b5142328b",
     "github": "https://github.com/Shreya0029-cloud",
     "leetcode": "https://leetcode.com/u/vUXivDGDHV/"
   },
-  "summary": "Computer Science Engineering undergraduate at VIT Vellore (2027) with an 8.56 CGPA, specializing in Full Stack Engineering, Scalable Backend Architectures, and Applied Generative AI. Proven track record building production-grade web platforms, microservices, and AI/ML pipelines with React, Node.js, Express, Python, FastAPI, PostgreSQL, MongoDB, Docker, and Three.js. 200+ LeetCode DSA problems solved with enterprise internship experience at IBM watsonx and Codec Technologies.",
+  "summary": "Computer Science Engineering undergraduate at VIT Vellore (2027) with an 8.3 CGPA, specializing in Full Stack Engineering, Scalable Backend Architectures, and Applied Generative AI. Proven track record building production-grade web platforms, microservices, and AI/ML pipelines with React, Node.js, Express, Python, FastAPI, PostgreSQL, MongoDB, Docker, and Three.js. 200+ LeetCode DSA problems solved with enterprise internship experience at IBM watsonx and Codec Technologies.",
   "availability": {
     "status": "Available",
     "roles": ["Full-Stack Software Engineer", "Backend Developer", "AI/ML Engineer", "Generative AI Developer"],
@@ -26,7 +26,7 @@
     "leetcodeCount": "1000+",
     "internshipsCount": "2",
     "certificationsCount": "8+",
-    "cgpa": "8.56",
+    "cgpa": "8.3",
     "linesOfCode": "50,000+"
   },
   "experience": [
@@ -78,7 +78,7 @@
       "institution": "Vellore Institute of Technology (VIT)",
       "period": "2023 – 2027",
       "location": "Vellore, Tamil Nadu",
-      "score": "CGPA: 8.56 / 10.0",
+      "score": "CGPA: 8.3 / 10.0",
       "details": "Core Coursework: Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, Machine Learning, Cloud Computing."
     },
     {
@@ -86,7 +86,7 @@
       "institution": "Rural College",
       "period": "2020 – 2022",
       "location": "Amravati, Maharashtra",
-      "score": "Percentage: 85%",
+      "score": "Percentage: 84.83%",
       "details": "Concentration in Physics, Chemistry, Mathematics, and Computer Science."
     },
     {
