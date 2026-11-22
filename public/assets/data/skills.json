@@ -9,7 +9,7 @@
         { "name": "Java", "level": 88, "experience": "2+ yrs", "highlight": "OOP, Data Structures, Concurrency" },
         { "name": "C / C++", "level": 86, "experience": "2+ yrs", "highlight": "Pointers, Memory, Low-Level Concepts" },
         { "name": "SQL & Relational", "level": 92, "experience": "2.5+ yrs", "highlight": "PostgreSQL, Indexing, Complex Joins" },
-        { "name": "Data Structures & Algorithms", "level": 94, "experience": "200+ Solved", "highlight": "LeetCode, Trees, Graphs, DP" },
+        { "name": "Data Structures & Algorithms", "level": 94, "experience": "1000+ Solved", "highlight": "LeetCode, Trees, Graphs, DP" },
         { "name": "Object-Oriented Programming (OOP)", "level": 93, "experience": "Core", "highlight": "SOLID, Polymorphism, Design Patterns" },
         { "name": "Operating Systems & Networking", "level": 90, "experience": "Core", "highlight": "TCP/IP, Sockets, Processes, Memory" },
         { "name": "System Design & REST APIs", "level": 91, "experience": "Core", "highlight": "Scalability, Microservices, Caching" }
